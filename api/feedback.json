@@ -21382,5 +21382,16 @@
     "topic": "Genome Annotation",
     "month": "2022-08",
     "date": "2022-08-23"
+  },
+  {
+    "": "2788",
+    "note": "5",
+    "pro": null,
+    "con": null,
+    "anonymous": null,
+    "tutorial": "Visualization of RNA-Seq results with heatmap2",
+    "topic": "Transcriptomics",
+    "month": "2022-08",
+    "date": "2022-08-23"
   }
 ]
