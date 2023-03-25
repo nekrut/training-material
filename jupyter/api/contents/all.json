@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2023-03-24T01:11:25.554430Z",
+      "created": "2023-03-25T01:09:31.473210Z",
       "format": null,
-      "last_modified": "2023-03-24T01:11:06.702382Z",
+      "last_modified": "2023-03-25T01:09:12.877218Z",
       "mimetype": null,
       "name": "data-science-python-basics.ipynb",
       "path": "data-science-python-basics.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2023-03-24T01:11:25.558430Z",
+      "created": "2023-03-25T01:09:31.473210Z",
       "format": null,
-      "last_modified": "2023-03-24T01:11:06.706382Z",
+      "last_modified": "2023-03-25T01:09:12.877218Z",
       "mimetype": null,
       "name": "data-science-python-plotting.ipynb",
       "path": "data-science-python-plotting.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2023-03-24T01:11:25.554430Z",
+      "created": "2023-03-25T01:09:31.473210Z",
       "format": null,
-      "last_modified": "2023-03-24T01:11:06.702382Z",
+      "last_modified": "2023-03-25T01:09:12.873218Z",
       "mimetype": null,
       "name": "data-science-python-advanced-np-pd.ipynb",
       "path": "data-science-python-advanced-np-pd.ipynb",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2023-03-24T01:11:25.558430Z",
+  "created": "2023-03-25T01:09:31.473210Z",
   "format": "json",
-  "last_modified": "2023-03-24T01:11:25.558430Z",
+  "last_modified": "2023-03-25T01:09:31.473210Z",
   "mimetype": null,
   "name": "",
   "path": "",
