@@ -2354,11 +2354,11 @@
       "slides": true,
       "workflows": [
         {
-          "workflow": "scrna_pp_celseq.ga",
+          "workflow": "scrna_mp_celseq.ga",
           "tests": false
         },
         {
-          "workflow": "scrna_mp_celseq.ga",
+          "workflow": "scrna_pp_celseq.ga",
           "tests": false
         }
       ],
@@ -2535,16 +2535,16 @@
       "slides": false,
       "workflows": [
         {
+          "workflow": "qc-mapping-counting.ga",
+          "tests": true
+        },
+        {
           "workflow": "deg-analysis.ga",
           "tests": true
         },
         {
           "workflow": "qc-mapping-counting-paired-and-single.ga",
           "tests": false
-        },
-        {
-          "workflow": "qc-mapping-counting.ga",
-          "tests": true
         }
       ],
       "tools": [
