@@ -133,7 +133,7 @@
       "resources": [
         "assets/js/theme.js"
       ],
-      "timestamp": 1696985854
+      "timestamp": 1697244973
     },
     "main": {
       "preload": true,
@@ -146,7 +146,7 @@
         "assets/js/list.min.js",
         "assets/js/main.js"
       ],
-      "timestamp": 1696985854
+      "timestamp": 1697244973
     }
   },
   "figurify": {
@@ -289,8 +289,8 @@
   "serving": false,
   "boxify": {
   },
-  "git_revision": "790318bdc1908de5a054df5200df9a7e0cedd951",
-  "git_revision_short": "790318b",
+  "git_revision": "fda9b45cc9a369125238666674b869418ac8d08e",
+  "git_revision_short": "fda9b45",
   "gtn_fork": "nekrut",
   "git_tags": [
     "2019-02-07",
@@ -326,5 +326,5 @@
     "2021-05-01",
     "2021-04-01"
   ],
-  "age": 8.284736481861739
+  "age": 8.292950034223136
 }
