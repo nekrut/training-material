@@ -4,7 +4,7 @@
 gtn_pages_total{layout=""} 0
 gtn_pages_total{layout="base"} 10
 gtn_pages_total{layout="embed"} 1
-gtn_pages_total{layout="faq"} 395
+gtn_pages_total{layout="faq"} 396
 gtn_pages_total{layout="faq-page"} 341
 gtn_pages_total{layout="hall-of-fame"} 1
 gtn_pages_total{layout="home"} 1
@@ -22,7 +22,7 @@ gtn_pages_total{layout="workflow-list"} 189
 # HELP gtn_contributors_total Total number of Contributors
 # TYPE gtn_contributors_total counter
 gtn_contributors_total{orcid="true"} 101
-gtn_contributors_total{orcid="false"} 224
+gtn_contributors_total{orcid="false"} 225
 
 # HELP gtn_tutorials_total Total number of Hands-on Tutorials
 # TYPE gtn_tutorials_total counter
@@ -30,7 +30,7 @@ gtn_tutorials_total 370
 
 # HELP gtn_faqs_total Total number of FAQs
 # TYPE gtn_faqs_total counter
-gtn_faqs_total 395
+gtn_faqs_total 396
 
 # HELP gtn_project_years_total Total years of project lifetime
 # TYPE gtn_project_years_total counter
@@ -38,12 +38,12 @@ gtn_project_years_total 8.30958904109589
 
 # HELP tutorial_update_age_days How recently was every single Hands-on Tutorial touched within the GTN, grouped by days since last edited.
 # TYPE tutorial_update_age_days histogram
-tutorial_update_age_days{le="1"} 4
-tutorial_update_age_days{le="7"} 2
-tutorial_update_age_days{le="28"} 32
-tutorial_update_age_days{le="90"} 8
-tutorial_update_age_days{le="365"} 311
-tutorial_update_age_days{le="730"} 12
+tutorial_update_age_days{le="1"} 5
+tutorial_update_age_days{le="7"} 27
+tutorial_update_age_days{le="28"} 27
+tutorial_update_age_days{le="90"} 7
+tutorial_update_age_days{le="365"} 286
+tutorial_update_age_days{le="730"} 17
 tutorial_update_age_days{le="1095"} 0
 tutorial_update_age_days{le="+Inf"} 1
 
@@ -51,7 +51,7 @@ tutorial_update_age_days{le="+Inf"} 1
 # TYPE contributor_join_age_days histogram
 contributor_join_age_days{le="1"} 0
 contributor_join_age_days{le="7"} 0
-contributor_join_age_days{le="28"} 0
+contributor_join_age_days{le="28"} 1
 contributor_join_age_days{le="90"} 4
 contributor_join_age_days{le="365"} 37
 contributor_join_age_days{le="730"} 61

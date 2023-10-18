@@ -133,7 +133,7 @@
       "resources": [
         "assets/js/theme.js"
       ],
-      "timestamp": 1697590693
+      "timestamp": 1697635203
     },
     "main": {
       "preload": true,
@@ -146,7 +146,7 @@
         "assets/js/list.min.js",
         "assets/js/main.js"
       ],
-      "timestamp": 1697590693
+      "timestamp": 1697635203
     }
   },
   "figurify": {
@@ -247,6 +247,7 @@
     "param-select": "fas fa-filter",
     "param-text": "fas fa-pencil-alt",
     "param-toggle": "fas fa-toggle-on",
+    "point-right": "fa fa-hand-o-right",
     "pref-info": "fas fa-user",
     "pref-password": "fas fa-unlock-alt",
     "pref-identities": "far fa-id-card-o",
@@ -289,8 +290,8 @@
   "serving": false,
   "boxify": {
   },
-  "git_revision": "fda9b45cc9a369125238666674b869418ac8d08e",
-  "git_revision_short": "fda9b45",
+  "git_revision": "2752a665e9cde64fc46b07701823f4c6cbe561b8",
+  "git_revision_short": "2752a66",
   "gtn_fork": "nekrut",
   "git_tags": [
     "2019-02-07",
