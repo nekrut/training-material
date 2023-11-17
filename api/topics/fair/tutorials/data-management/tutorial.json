@@ -47,6 +47,7 @@
       ]
     }
   ],
+  "mathjax": null,
   "short_id": "T00349",
   "url": "/topics/fair/tutorials/data-management/tutorial.html",
   "topic_name": "fair",
@@ -122,6 +123,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -136,7 +142,7 @@
       "name": "DASH UK",
       "joined": "2023-10",
       "avatar": "https://github.com/galaxyproject/training-material/blob/main/shared/images/dash.png?raw=true",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/ELIXIR-UK-DaSH.json",
+      "url": "https://training.galaxyproject.org/training-material/api/funders/ELIXIR-UK-DaSH.json",
       "funder": true,
       "funding_system": "ukri",
       "funding_id": "MR/V038966/1",

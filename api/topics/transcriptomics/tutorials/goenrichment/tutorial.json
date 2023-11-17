@@ -32,6 +32,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00291",
   "url": "/topics/transcriptomics/tutorials/goenrichment/tutorial.html",
   "topic_name": "transcriptomics",
@@ -60,7 +61,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "GO Enrichment Workflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:13 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/transcriptomics/tutorials/goenrichment/tutorial.json",
@@ -111,19 +114,19 @@
         "name": "goenrichment",
         "owner": "iuc",
         "revisions": "2c7c9646ccf0",
-        "tool_panel_section_label": "Transcriptomics",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "goslimmer",
         "owner": "iuc",
         "revisions": "de3e053bd6a5",
-        "tool_panel_section_label": "Transcriptomics",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: goenrichment\n  owner: iuc\n  revisions: 2c7c9646ccf0\n  tool_panel_section_label: Transcriptomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: goslimmer\n  owner: iuc\n  revisions: de3e053bd6a5\n  tool_panel_section_label: Transcriptomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: goenrichment\n  owner: iuc\n  revisions: 2c7c9646ccf0\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: goslimmer\n  owner: iuc\n  revisions: de3e053bd6a5\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {

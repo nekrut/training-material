@@ -6,63 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>GTN Contributor: Beatriz Serrano-Solano</title>
         
-            <!--
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
--->
-<!-- We let users opt-out, so if they've opted in, we need to append the plausible script to the body -->
-
-<script>
-var scriptElement = document.createElement("script");
-scriptElement.async = true;
-scriptElement.defer = true;
-scriptElement.setAttribute("data-domain", "training.galaxyproject.org");
-scriptElement.src = "https://plausible.galaxyproject.eu/js/plausible.js";
-
-// Appending the script element to the body
-if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
-	console.log("Plausible: opt-in");
-	// Wait for the document to be available
-	document.addEventListener("DOMContentLoaded", function(event) {
-		document.body.appendChild(scriptElement);
-	});
-}
-</script>
+            <meta name="google-site-verification" content="9mOXn2JL833-i7-aioCCEuIdG4_tb6qjwUozB5GJnPQ" />
 
 <!-- JavaScript Error Monitoring, and performance tracking. -->
-<!--
 <script
   src="https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js"
   integrity="sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43"
   crossorigin="anonymous"
 ></script>
--->
 <script type="text/javascript">
-var scriptElement = document.createElement("script");
-scriptElement.src = "https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js";
-scriptElement.integrity = "sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43";
-scriptElement.crossOrigin = "anonymous";
-
 if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
 	console.log("Sentry: opt-in");
-	// Appending the script element to the body
-	document.addEventListener("DOMContentLoaded", function(event) {
-		document.body.appendChild(scriptElement);
-	});
-		
 	Sentry.init({
-	  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
-	  release: "galaxy-training-network@e875bc132c4f836f7e54be195e86cdb23a87a2b3",
-	  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
-	  sampleRate: 0.1,
-	  tracesSampleRate: 0.1,
-	  // Capture Replay for no sessions by default
-	  replaysSessionSampleRate: 0.01,
-	  // plus for 1% of sessions with an error
-	  replaysOnErrorSampleRate: 0.01,
-	  // PII OFF
-	  sendDefaultPii: false, // Off by default but just in case.
-	  environment: "production",
+		dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
+		release: "galaxy-training-network@b25ac98bb846d39716adb94501f35d40a303acc1",
+		integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
+		sampleRate: 0.1,
+		tracesSampleRate: 0.1,
+		// Capture Replay for no sessions by default
+		replaysSessionSampleRate: 0.01,
+		// plus for 1% of sessions with an error
+		replaysOnErrorSampleRate: 0.01,
+		// PII OFF
+		sendDefaultPii: false, // Off by default but just in case.
+		environment: "production",
 	});
+}
+</script>
+
+<!-- Page view tracking -->
+<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+<script>
+if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	localStorage.removeItem("plausible_ignore")
+	console.log("Plausible: opt-in");
+} else {
+	// if they're opting-out, or DNT
+	// we might get one page by accident but we won't get future ones.
+	localStorage.setItem("plausible_ignore", "true")
 }
 </script>
 
@@ -74,14 +55,13 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Italic-102a.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" as="script" crossorigin>
+        
         <link rel="preload" href="/training-material/assets/css/main.css?v=3" as="style">
-        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1700182826' as='script'>
-<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1700182826' as='script'>
+        <link rel='preload' href='/training-material/assets/js/bundle.f1f2de89.js?v=1700236868' as='script'>
+<link rel='preload' href='/training-material/assets/js/bundle.9d052497.js?v=1700236868' as='script'>
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=3">
         <link rel="manifest" href="/training-material/manifest.json">
         <meta name="theme-color" content="#2c3143"/>
-
 
         <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material">
 <meta name="DC.type" content="text">
@@ -93,17 +73,17 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         
         
         
-        <meta name="description" content="Collection of tutorials developed and maintained by the w...">
+        <meta name="description" content="Collection of tutorials developed and maintained by the worldwide Galaxy community">
         <meta property="og:site_name" content="Galaxy Training Network">
         <meta property="og:title" content="Galaxy Training: GTN Contributor: Beatriz Serrano-Solano">
-        <meta property="og:description" content="Collection of tutorials developed and maintained by the w...">
+        <meta property="og:description" content="Collection of tutorials developed and maintained by the worldwide Galaxy community">
         
         <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png">
 
         
     </head>
     <body data-spy="scroll" data-target="#toc" data-brightness="auto" data-contrast="auto">
-        <script src='/training-material/assets/js/bundle.theme.js?v=1700182826'></script>
+        <script src='/training-material/assets/js/bundle.f1f2de89.js?v=1700236868'></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -187,7 +167,7 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         
 
 		<a href="/training-material/preferences.html" class="dropdown-item">
-			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Themes have moved <span class="badge badge-secondary">New</span>
+			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> User Preferences <span class="badge badge-secondary">New</span>
 		</a>
 
         <div class="dropdown-item">
@@ -234,8 +214,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         <div class="container main-content" role="main">
         
 
+
 <script type="application/ld+json">
-	
 	{
   "@context": "https://schema.org",
   "@type": "Person",
@@ -253,7 +233,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
       "@type": "Organization",
       "email": "galaxytrainingnetwork@gmail.com",
       "name": "Galaxy Training Network",
-      "url": "https://galaxyproject.org/teach/gtn/"
+      "url": "https://training.galaxyproject.org",
+      "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
     }
   ],
   "identifier": "https://orcid.org/0000-0002-5862-6132",
@@ -267,82 +248,9 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 }
 
 </style>
-<section class="contributor-beatrizserrano">
+<section class="contributor-page contributor-beatrizserrano">
 	<div class="stats">
 		<div class="row">
-
-			<div class="col-md-3">
-				<div>
-				
-					<img src="https://avatars.githubusercontent.com/beatrizserrano" alt="github avatar" >
-				
-				</div>
-
-				
-
-				
-
-				
-				<div class="contact-items">
-					<a title="GitHub" href="https://github.com/beatrizserrano">
-						<i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> beatrizserrano
-					</a>
-				</div>
-				
-
-				
-
-				
-				<div class="contact-items">
-					<a title="E-mail" href="mailto:beatrizserrano.galaxy@gmail.com">
-						<i class="far fa-envelope" aria-hidden="true"></i><span class="visually-hidden">email</span> beatrizserrano.galaxy@gmail.com
-					</a>
-				</div>
-				
-
-				
-				<div class="contact-items">
-					<a title="matrix" href="https://matrix.to/#/@beatrizserrano:matrix.org">
-						<i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> beatrizserrano:matrix.org
-					</a>
-				</div>
-				
-
-				
-
-				
-				<div class="contact-items">
-					<a title="Twitter" href="https://twitter.com/BSerranoSolano">
-						<i class="fab fa-twitter" aria-hidden="true"></i><span class="visually-hidden">twitter</span> BSerranoSolano
-					</a>
-				</div>
-				
-
-				
-				<div class="contact-items">
-					<a title="LinkedIn" href="https://www.linkedin.com/in/beatriz-serrano">
-						<i class="fab fa-linkedin" aria-hidden="true"></i><span class="visually-hidden">linkedin</span> beatriz-serrano
-					</a>
-				</div>
-				
-
-				
-				<div class="contact-items">
-					<a title="ORCID" href="https://orcid.org/0000-0002-5862-6132">
-						<i class="fab fa-orcid" aria-hidden="true"></i><span class="visually-hidden">orcid</span> 0000-0002-5862-6132
-					</a>
-				</div>
-				
-
-				
-
-				<h4>Favourite Topics</h4>
-				<canvas id="myChart" height="300px"></canvas>
-				<h4>Favourite Formats</h4>
-				<canvas id="slidesVsTutorials" height="300px"></canvas>
-
-			</div>
-
 			<div class="col-md-9">
 				<hgroup>
 					<h1>
@@ -350,6 +258,15 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 					</h1>
 				
 				</hgroup>
+
+				
+
+				
+				
+
+				
+				
+
 				
 				
 
@@ -538,7 +455,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 	<tr>
 		<td><abbr title="These people wrote the bulk of the tutorial, they may have done the analysis, built the workflow, and wrote the text themselves.">Author(s)</abbr></td>
 		<td>
-			<a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Avatar" width="36" height="36">Beatriz Serrano-Solano</a>
+			<a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Beatriz Serrano-Solano avatar" width="36" class="avatar" />
+    Beatriz Serrano-Solano</a>
 		</td>
 	</tr>
 	
@@ -562,9 +480,9 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #d7d6ff; --color-darker: #bdbbff; --color-dimmed: #cac9ff;">new topic</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #b4b1ff; --color-darker: #9d99ff; --color-dimmed: #a9a5ff;">new topic</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcaf4; --color-darker: #ffa3ed; --color-dimmed: #ffb7f0;">new community</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ff93eb; --color-darker: #ff6ae6; --color-dimmed: #ff80e9;">new community</span>
 
     <hr/>
     <p class="card-text">
@@ -608,7 +526,13 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 	<tr>
 		<td><abbr title="These people wrote the bulk of the tutorial, they may have done the analysis, built the workflow, and wrote the text themselves.">Author(s)</abbr></td>
 		<td>
-			<a href="/training-material/hall-of-fame/nomadscientist/" class="contributor-badge contributor-nomadscientist"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/nomadscientist?s=36" alt="Avatar" width="36" height="36">Wendi Bacon</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Avatar" width="36" height="36">Beatriz Serrano-Solano</a><a href="/training-material/hall-of-fame/pclo/" class="contributor-badge contributor-pclo"><img src="https://avatars.githubusercontent.com/pclo?s=36" alt="Avatar" width="36" height="36">Patricia Carvajal López</a><a href="/training-material/hall-of-fame/ales-ibt/" class="contributor-badge contributor-ales-ibt"><img src="https://avatars.githubusercontent.com/ales-ibt?s=36" alt="Avatar" width="36" height="36">Alejandra Escobar-Zepeda</a><a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/shiltemann?s=36" alt="Avatar" width="36" height="36">Saskia Hiltemann</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/hexylena?s=36" alt="Avatar" width="36" height="36">Helena Rasche</a>
+			<a href="/training-material/hall-of-fame/nomadscientist/" class="contributor-badge contributor-nomadscientist"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/nomadscientist?s=36" alt="Wendi Bacon avatar" width="36" class="avatar" />
+    Wendi Bacon</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Beatriz Serrano-Solano avatar" width="36" class="avatar" />
+    Beatriz Serrano-Solano</a><a href="/training-material/hall-of-fame/pclo/" class="contributor-badge contributor-pclo"><img src="https://avatars.githubusercontent.com/pclo?s=36" alt="Patricia Carvajal López avatar" width="36" class="avatar" />
+    Patricia Carvajal López</a><a href="/training-material/hall-of-fame/ales-ibt/" class="contributor-badge contributor-ales-ibt"><img src="https://avatars.githubusercontent.com/ales-ibt?s=36" alt="Alejandra Escobar-Zepeda avatar" width="36" class="avatar" />
+    Alejandra Escobar-Zepeda</a><a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/shiltemann?s=36" alt="Saskia Hiltemann avatar" width="36" class="avatar" />
+    Saskia Hiltemann</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/hexylena?s=36" alt="Helena Rasche avatar" width="36" class="avatar" />
+    Helena Rasche</a>
 		</td>
 	</tr>
 	
@@ -632,14 +556,20 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #fda700; --color-darker: #e29400; --color-dimmed: #ef9d00;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f3e8; --color-darker: #00d8ce; --color-dimmed: #00e6db;">español</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00cec4; --color-darker: #00b8af; --color-dimmed: #00c3b9;">español</span>
 
     <hr/>
     <p class="card-text">
       
-        ¡El primer tutorial en español ya está disponible! Galaxy siempre ha tenido tutoriales traducidos automáticamente mediante Google-Translate, ahora nos estamos embarcando en un nuevo proyecto para estudiar la experiencia de aprendizaje con tutoriales en bioinformática traducidos por humanos. Nuestro objetivo es crear un paquete de tutoriales para el análisis de datos single-cell (célula única) en primera instancia, con el fin de estudiar su uso y utilidad en un taller para hablantes nativos de español. Agradecemos enormemente a las nuevas participantes Patricia Carvajal López y Alejandra Escobar-Zepeda (EMBL-EBI) así como a las miembros existentes de GTN Beatriz Serrano-Solano (University of Freiburg), Saskia Hiltemann &amp; Helena Rasche (Erasmus-MC), por su arduo trabajo en este proyecto de traducción y mantenimiento y, por supuesto, a Wendi Bacon (The Open University/EBI) como líder de proyecto.
+        ¡El primer tutorial en español ya está disponible! Galaxy siempre ha tenido tutoriales traducidos automáticamente mediante Google-Translate, ahora nos estamos embarcando en un nuevo proyecto para estudiar la experiencia de aprendizaje con tutoriales en bioinformática traducidos por humanos. Nuestro objetivo es crear un paquete de tutoriales para el análisis de datos single-cell (célula única) en primera instancia, con el fin de estudiar su uso y utilidad en un taller para hablantes nativos de español. Agradecemos enormemente a las nuevas participantes 
+    Patricia Carvajal López y 
+    Alejandra Escobar-Zepeda (EMBL-EBI) así como a las miembros existentes de GTN 
+    Beatriz Serrano-Solano (University of Freiburg), 
+    Saskia Hiltemann &amp; 
+    Helena Rasche (Erasmus-MC), por su arduo trabajo en este proyecto de traducción y mantenimiento y, por supuesto, a 
+    Wendi Bacon (The Open University/EBI) como líder de proyecto.
 
       
     </p>
@@ -679,7 +609,10 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 	<tr>
 		<td><abbr title="These people wrote the bulk of the tutorial, they may have done the analysis, built the workflow, and wrote the text themselves.">Author(s)</abbr></td>
 		<td>
-			<a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge contributor-gallardoalba"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/gallardoalba?s=36" alt="Avatar" width="36" height="36">Cristóbal Gallardo</a><a href="/training-material/hall-of-fame/pavanvidem/" class="contributor-badge contributor-pavanvidem"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/pavanvidem?s=36" alt="Avatar" width="36" height="36">Pavankumar Videm</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Avatar" width="36" height="36">Beatriz Serrano-Solano</a>
+			<a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge contributor-gallardoalba"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/gallardoalba?s=36" alt="Cristóbal Gallardo avatar" width="36" class="avatar" />
+    Cristóbal Gallardo</a><a href="/training-material/hall-of-fame/pavanvidem/" class="contributor-badge contributor-pavanvidem"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/pavanvidem?s=36" alt="Pavankumar Videm avatar" width="36" class="avatar" />
+    Pavankumar Videm</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Beatriz Serrano-Solano avatar" width="36" class="avatar" />
+    Beatriz Serrano-Solano</a>
 		</td>
 	</tr>
 	
@@ -703,13 +636,13 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #fda700; --color-darker: #e29400; --color-dimmed: #ef9d00;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #efdd00; --color-darker: #d5c400; --color-dimmed: #e2d000;">transcriptomics</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #cbbb00; --color-darker: #b5a700; --color-dimmed: #c0b100;">transcriptomics</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #71f700; --color-darker: #64dc00; --color-dimmed: #6ae900;">plants</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #5fd200; --color-darker: #54bb00; --color-dimmed: #59c600;">plants</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcbea; --color-darker: #ffa6de; --color-dimmed: #ffb9e4;">mirna</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ff96da; --color-darker: #ff6fd1; --color-dimmed: #ff84d5;">mirna</span>
 
     <hr/>
     <p class="card-text">
@@ -754,7 +687,9 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 	<tr>
 		<td><abbr title="These people wrote the bulk of the tutorial, they may have done the analysis, built the workflow, and wrote the text themselves.">Author(s)</abbr></td>
 		<td>
-			<a href="/training-material/hall-of-fame/mtekman/" class="contributor-badge contributor-mtekman"><img src="https://avatars.githubusercontent.com/mtekman?s=36" alt="Avatar" width="36" height="36">Mehmet Tekman</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Avatar" width="36" height="36">Beatriz Serrano-Solano</a>
+			<a href="/training-material/hall-of-fame/mtekman/" class="contributor-badge contributor-mtekman"><img src="https://avatars.githubusercontent.com/mtekman?s=36" alt="Mehmet Tekman avatar" width="36" class="avatar" />
+    Mehmet Tekman</a><a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Beatriz Serrano-Solano avatar" width="36" class="avatar" />
+    Beatriz Serrano-Solano</a>
 		</td>
 	</tr>
 	
@@ -778,11 +713,11 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #fda700; --color-darker: #e29400; --color-dimmed: #ef9d00;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #00f4e1; --color-darker: #00d9c8; --color-dimmed: #00e6d4;">single-cell</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #00cfbe; --color-darker: #00b8aa; --color-dimmed: #00c4b4;">single-cell</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #e2d3ff; --color-darker: #d0b5ff; --color-dimmed: #d8c4ff;">plant</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #c9aaff; --color-darker: #bb8fff; --color-dimmed: #c29cff;">plant</span>
 
     <hr/>
     <p class="card-text">
@@ -827,7 +762,10 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 	<tr>
 		<td><abbr title="These people wrote the bulk of the tutorial, they may have done the analysis, built the workflow, and wrote the text themselves.">Author(s)</abbr></td>
 		<td>
-			<a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Avatar" width="36" height="36">Beatriz Serrano-Solano</a><a href="/training-material/hall-of-fame/sunyi000/" class="contributor-badge contributor-sunyi000"><img src="https://avatars.githubusercontent.com/sunyi000?s=36" alt="Avatar" width="36" height="36">Yi Sun</a><a href="/training-material/hall-of-fame/jkh1/" class="contributor-badge contributor-jkh1"><img src="https://avatars.githubusercontent.com/jkh1?s=36" alt="Avatar" width="36" height="36">Jean-Karim Hériché</a>
+			<a href="/training-material/hall-of-fame/beatrizserrano/" class="contributor-badge contributor-beatrizserrano"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/beatrizserrano?s=36" alt="Beatriz Serrano-Solano avatar" width="36" class="avatar" />
+    Beatriz Serrano-Solano</a><a href="/training-material/hall-of-fame/sunyi000/" class="contributor-badge contributor-sunyi000"><img src="https://avatars.githubusercontent.com/sunyi000?s=36" alt="Yi Sun avatar" width="36" class="avatar" />
+    Yi Sun</a><a href="/training-material/hall-of-fame/jkh1/" class="contributor-badge contributor-jkh1"><img src="https://avatars.githubusercontent.com/jkh1?s=36" alt="Jean-Karim Hériché avatar" width="36" class="avatar" />
+    Jean-Karim Hériché</a>
 		</td>
 	</tr>
 	
@@ -851,9 +789,9 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
 
 
         
-<span class="label label-default tutorial_tag" style="--color-primary: #ffd1ab; --color-darker: #ffb254; --color-dimmed: #ffc287;">new tutorial</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #fda700; --color-darker: #e29400; --color-dimmed: #ef9d00;">new tutorial</span>
 
-<span class="label label-default tutorial_tag" style="--color-primary: #ffcbea; --color-darker: #ffa6dd; --color-dimmed: #ffb9e3;">imaging</span>
+<span class="label label-default tutorial_tag" style="--color-primary: #ff97d8; --color-darker: #ff70cf; --color-dimmed: #ff84d4;">imaging</span>
 
     <hr/>
     <p class="card-text">
@@ -872,6 +810,83 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
                 
                 </div>
 				
+
+			</div>
+
+			<div class="col-md-3">
+				<div>
+					<img src="https://avatars.githubusercontent.com/beatrizserrano?s=200" alt="Beatriz Serrano-Solano avatar" width="200" class="avatar" />
+				</div>
+
+				<h2>External Links</h2>
+				
+
+				
+				<div class="contact-items">
+					<a title="GitHub" href="https://github.com/beatrizserrano">
+						<i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> beatrizserrano
+					</a>
+				</div>
+				
+
+				
+
+				
+				<div class="contact-items">
+					<a title="E-mail" href="mailto:beatrizserrano.galaxy@gmail.com">
+						<i class="far fa-envelope" aria-hidden="true"></i><span class="visually-hidden">email</span> beatrizserrano.galaxy@gmail.com
+					</a>
+				</div>
+				
+
+				
+				<div class="contact-items">
+					<a title="matrix" href="https://matrix.to/#/@beatrizserrano:matrix.org">
+						<i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> beatrizserrano:matrix.org
+					</a>
+				</div>
+				
+
+				
+
+				
+				<div class="contact-items">
+					<a title="Twitter" href="https://twitter.com/BSerranoSolano">
+						<i class="fab fa-twitter" aria-hidden="true"></i><span class="visually-hidden">twitter</span> BSerranoSolano
+					</a>
+				</div>
+				
+
+				
+				<div class="contact-items">
+					<a title="LinkedIn" href="https://www.linkedin.com/in/beatriz-serrano">
+						<i class="fab fa-linkedin" aria-hidden="true"></i><span class="visually-hidden">linkedin</span> beatriz-serrano
+					</a>
+				</div>
+				
+
+				
+				<div class="contact-items">
+					<a title="ORCID" href="https://orcid.org/0000-0002-5862-6132">
+						<i class="fab fa-orcid" aria-hidden="true"></i><span class="visually-hidden">orcid</span> 0000-0002-5862-6132
+					</a>
+				</div>
+				
+
+				
+
+				<p>Favourite Topics</p>
+				<canvas id="myChart" height="300px"></canvas>
+				<p>Favourite Formats</p>
+				<canvas id="slidesVsTutorials" height="300px"></canvas>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
 <script src="/training-material/assets/js/Chart.bundle.js"></script>
 
 <script>
@@ -1006,14 +1021,7 @@ var chart2 = new Chart(ctx2, {
 		}
 	}
 });
-				</script>
-
-			</div>
-
-			</div>
-		</div>
-	</div>
-</section>
+</script>
 
         </div>
         <footer>
@@ -1029,7 +1037,7 @@ var chart2 = new Chart(ctx2, {
 				The GTN infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>
 				</p>
 				<p>
-				Revision <a href="https://github.com/galaxyproject/training-material/commit/e875bc132c4f836f7e54be195e86cdb23a87a2b3">e875bc1</a>, built with Jekyll (4.3.2 | production)
+				Revision <a href="https://github.com/galaxyproject/training-material/commit/b25ac98bb846d39716adb94501f35d40a303acc1">b25ac98</a>, built with Jekyll (4.3.2 | production)
 				</p>
 			</div>
 			<div class="col-sm-6" style="text-align: right">
@@ -1053,11 +1061,7 @@ var chart2 = new Chart(ctx2, {
 </footer>
 
 
-    </div>
-</footer>
-
-
-        <script src='/training-material/assets/js/bundle.main.js?v=1700182826'></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src='/training-material/assets/js/bundle.9d052497.js?v=1700236868'></script>
+        
     </body>
 </html>

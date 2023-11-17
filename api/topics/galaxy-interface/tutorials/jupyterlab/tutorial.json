@@ -37,6 +37,7 @@
     ]
   },
   "subtopic": "analyse",
+  "mathjax": null,
   "short_id": "T00153",
   "url": "/topics/galaxy-interface/tutorials/jupyterlab/tutorial.html",
   "topic_name": "galaxy-interface",
@@ -126,6 +127,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

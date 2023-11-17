@@ -39,6 +39,7 @@
       ]
     }
   ],
+  "mathjax": null,
   "short_id": "T00243",
   "url": "/topics/single-cell/tutorials/bulk-music-4-compare/tutorial.html",
   "topic_name": "single-cell",
@@ -76,7 +77,9 @@
           "name": "Mehmet Tekman"
         }
       ],
-      "test_results": null
+      "name": "MuSiC-Deconvolution: Compare",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/single-cell/tutorials/bulk-music-4-compare/tutorial.json",
@@ -115,12 +118,12 @@
         "name": "music_compare",
         "owner": "bgruening",
         "revisions": "4447ed460308",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Single-cell",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: music_compare\n  owner: bgruening\n  revisions: 4447ed460308\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: music_compare\n  owner: bgruening\n  revisions: 4447ed460308\n  tool_panel_section_label: Single-cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {

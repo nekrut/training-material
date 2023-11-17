@@ -22,6 +22,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -33,6 +38,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00059",
   "url": "/topics/contributing/tutorials/create-new-tutorial-quiz/tutorial.html",
   "topic_name": "contributing",

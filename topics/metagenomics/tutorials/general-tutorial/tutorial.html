@@ -6,63 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Analyses of metagenomics data - The global picture</title>
         
-            <!--
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
--->
-<!-- We let users opt-out, so if they've opted in, we need to append the plausible script to the body -->
-
-<script>
-var scriptElement = document.createElement("script");
-scriptElement.async = true;
-scriptElement.defer = true;
-scriptElement.setAttribute("data-domain", "training.galaxyproject.org");
-scriptElement.src = "https://plausible.galaxyproject.eu/js/plausible.js";
-
-// Appending the script element to the body
-if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
-	console.log("Plausible: opt-in");
-	// Wait for the document to be available
-	document.addEventListener("DOMContentLoaded", function(event) {
-		document.body.appendChild(scriptElement);
-	});
-}
-</script>
+            <meta name="google-site-verification" content="9mOXn2JL833-i7-aioCCEuIdG4_tb6qjwUozB5GJnPQ" />
 
 <!-- JavaScript Error Monitoring, and performance tracking. -->
-<!--
 <script
   src="https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js"
   integrity="sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43"
   crossorigin="anonymous"
 ></script>
--->
 <script type="text/javascript">
-var scriptElement = document.createElement("script");
-scriptElement.src = "https://browser.sentry-cdn.com/7.52.1/bundle.tracing.min.js";
-scriptElement.integrity = "sha384-muuFXKS3752PNA4rPm9Uq6BLvOfV4CXyr9MHDBPvozOJJUWLKkogEFWOIRoVps43";
-scriptElement.crossOrigin = "anonymous";
-
 if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
 	console.log("Sentry: opt-in");
-	// Appending the script element to the body
-	document.addEventListener("DOMContentLoaded", function(event) {
-		document.body.appendChild(scriptElement);
-	});
-		
 	Sentry.init({
-	  dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
-	  release: "galaxy-training-network@e875bc132c4f836f7e54be195e86cdb23a87a2b3",
-	  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
-	  sampleRate: 0.1,
-	  tracesSampleRate: 0.1,
-	  // Capture Replay for no sessions by default
-	  replaysSessionSampleRate: 0.01,
-	  // plus for 1% of sessions with an error
-	  replaysOnErrorSampleRate: 0.01,
-	  // PII OFF
-	  sendDefaultPii: false, // Off by default but just in case.
-	  environment: "production",
+		dsn: "https://45e0ec6e4373462b92969505df37cf40@sentry.galaxyproject.org/10",
+		release: "galaxy-training-network@b25ac98bb846d39716adb94501f35d40a303acc1",
+		integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
+		sampleRate: 0.1,
+		tracesSampleRate: 0.1,
+		// Capture Replay for no sessions by default
+		replaysSessionSampleRate: 0.01,
+		// plus for 1% of sessions with an error
+		replaysOnErrorSampleRate: 0.01,
+		// PII OFF
+		sendDefaultPii: false, // Off by default but just in case.
+		environment: "production",
 	});
+}
+</script>
+
+<!-- Page view tracking -->
+<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
+<script>
+if(localStorage.getItem('plausible-opt-out') !== 'opt-out' && navigator.doNotTrack !== "1") {
+	localStorage.removeItem("plausible_ignore")
+	console.log("Plausible: opt-in");
+} else {
+	// if they're opting-out, or DNT
+	// we might get one page by accident but we won't get future ones.
+	localStorage.setItem("plausible_ignore", "true")
 }
 </script>
 
@@ -74,20 +55,19 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="/training-material/assets/fonts/AtkinsonHyperlegible/Atkinson-Hyperlegible-Italic-102a.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" as="script" crossorigin>
+        
         <link rel="preload" href="/training-material/assets/css/main.css?v=3" as="style">
-        <link rel='preload' href='/training-material/assets/js/bundle.theme.js?v=1700182826' as='script'>
-<link rel='preload' href='/training-material/assets/js/bundle.main.js?v=1700182826' as='script'>
+        <link rel='preload' href='/training-material/assets/js/bundle.f1f2de89.js?v=1700236868' as='script'>
+<link rel='preload' href='/training-material/assets/js/bundle.9d052497.js?v=1700236868' as='script'>
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=3">
         <link rel="manifest" href="/training-material/manifest.json">
         <meta name="theme-color" content="#2c3143"/>
-
 
         <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material">
 <meta name="DC.type" content="text">
 <meta name="DC.title" content="Analyses of metagenomics data - The global picture">
 <meta name="DC.publisher" content="Galaxy Training Network">
-<meta name="DC.date" content="2022-10-20 16:51:14 +0000">
+<meta name="DC.date" content="2023-11-03 14:30:27 +0000">
 <meta name="DC.creator" content="Saskia Hiltemann">
 <meta name="DC.creator" content="Bérénice Batut">
 
@@ -95,10 +75,10 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         
         
         
-        <meta name="description" content="Metagenomics is a discipline that enables the genomic stu...">
+        <meta name="description" content="Metagenomics is a discipline that enables the genomic study of uncultured microorganisms">
         <meta property="og:site_name" content="Galaxy Training Network">
         <meta property="og:title" content="Galaxy Training: Analyses of metagenomics data - The global picture">
-        <meta property="og:description" content="Metagenomics is a discipline that enables the genomic stu...">
+        <meta property="og:description" content="Metagenomics is a discipline that enables the genomic study of uncultured microorganisms">
         
         <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png">
 
@@ -127,9 +107,10 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
     "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
+    "url": "https://training.galaxyproject.org",
+    "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
   },
-  "dateModified": "2022-10-20 16:51:14 +0000",
+  "dateModified": "2023-11-03 14:30:27 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Analyses of metagenomics data - The global picture",
   "interactivityType": "mixed",
@@ -140,25 +121,28 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
     "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
+    "url": "https://training.galaxyproject.org",
+    "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
   },
   "provider": {
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
     "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
+    "url": "https://training.galaxyproject.org",
+    "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
   },
   "sourceOrganization": {
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
     "name": "Galaxy Training Network",
-    "url": "https://galaxyproject.org/teach/gtn/"
+    "url": "https://training.galaxyproject.org",
+    "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
   },
-  "identifier": "https://github.com/galaxyproject/training-material",
   "workTranslation": [
 
   ],
   "creativeWorkStatus": "Active",
+  "identifier": "https://gxy.io/GTN:T00201",
   "accessMode": [
     "textual",
     "visual"
@@ -183,11 +167,14 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
     "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/"
   },
   "learningResourceType": "hands-on tutorial",
-  "name": "Hands-on for 'Analyses of metagenomics data - The global picture' tutorial",
+  "name": "Analyses of metagenomics data - The global picture",
   "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html",
+  "version": 86,
   "timeRequired": "PT2H30M",
   "teaches": "Choosing the best approach to analyze metagenomics data\n - Selection of tools to analyze amplicon data or shotgun data\n - Visualisation of a community structure",
-  "keywords": "metagenomics",
+  "keywords": [
+    "Metagenomics"
+  ],
   "description": "The questions this  addresses are:\n - How to analyze metagenomics data?\n - What information can be extracted of metagenomics data?\n - What is the difference between amplicon and shotgun data?\n - What are the difference in the analyses of amplicon and shotgun data?\n\n\nThe objectives are:\n - Choosing the best approach to analyze metagenomics data\n - Selection of tools to analyze amplicon data or shotgun data\n - Visualisation of a community structure\n\n",
   "inLanguage": {
     "@type": "Language",
@@ -205,7 +192,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         "@type": "Organization",
         "email": "galaxytrainingnetwork@gmail.com",
         "name": "Galaxy Training Network",
-        "url": "https://galaxyproject.org/teach/gtn/"
+        "url": "https://training.galaxyproject.org",
+        "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
       }
     }
   ],
@@ -227,7 +215,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
           "@type": "Organization",
           "email": "galaxytrainingnetwork@gmail.com",
           "name": "Galaxy Training Network",
-          "url": "https://galaxyproject.org/teach/gtn/"
+          "url": "https://training.galaxyproject.org",
+          "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
         }
       ],
       "identifier": "https://orcid.org/0000-0003-3803-468X",
@@ -250,7 +239,8 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
           "@type": "Organization",
           "email": "galaxytrainingnetwork@gmail.com",
           "name": "Galaxy Training Network",
-          "url": "https://galaxyproject.org/teach/gtn/"
+          "url": "https://training.galaxyproject.org",
+          "logo": "https://training.galaxyproject.org/training-material/assets/images/GTNLogo1000.png"
         }
       ],
       "identifier": "https://orcid.org/0000-0001-9852-1987",
@@ -276,13 +266,13 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
   "mentions": [
 
   ],
-  "abstract": "# Introduction"
+  "abstract": "In metagenomics, information about micro-organisms in an environment can be extracted with two main techniques:"
 }
         </script>
         
     </head>
     <body data-spy="scroll" data-target="#toc" data-brightness="auto" data-contrast="auto">
-        <script src='/training-material/assets/js/bundle.theme.js?v=1700182826'></script>
+        <script src='/training-material/assets/js/bundle.f1f2de89.js?v=1700236868'></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -374,7 +364,7 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
         
 
 		<a href="/training-material/preferences.html" class="dropdown-item">
-			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> Themes have moved <span class="badge badge-secondary">New</span>
+			<i class="fas fa-palette" aria-hidden="true"></i><span class="visually-hidden">gtn-theme</span> User Preferences <span class="badge badge-secondary">New</span>
 		</a>
 
         <div class="dropdown-item">
@@ -449,7 +439,9 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
     <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/shiltemann?s=36" alt="Avatar" width="36" height="36">Saskia Hiltemann</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/bebatut?s=36" alt="Avatar" width="36" height="36">Bérénice Batut</a>
+		Authors: <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge contributor-shiltemann"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/shiltemann?s=36" alt="Saskia Hiltemann avatar" width="36" class="avatar" />
+    Saskia Hiltemann</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo" width="36" height="36"/><img src="https://avatars.githubusercontent.com/bebatut?s=36" alt="Bérénice Batut avatar" width="36" class="avatar" />
+    Bérénice Batut</a>
 	</div>
 
 </div>
@@ -458,7 +450,7 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
     <blockquote class="overview">
         <div id="overview-box" class="box-title">Overview</div>
         
-        <img alt="Creative Commons License: CC-BY" class="float-right" style="border-width:0; display: inline-block; margin:0" src="/training-material/assets/images/cc-by.png"/>
+        <img alt="Creative Commons License: CC-BY" class="float-right" style="border-width:0; display: inline-block; margin:0" src="/training-material/assets/images/cc-by.png" width="88" height="31"/>
         
         <strong><i class="far fa-question-circle" aria-hidden="true"></i> Questions:</strong>
         <ul>
@@ -647,7 +639,7 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
             
         </ul>
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Oct 20, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Nov 3, 2023 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
 		
             
@@ -655,8 +647,11 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
              The GTN Framework is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>
         </div>
         
-        <div><strong><i class="fas fa-fingerprint" aria-hidden="true"></i><span class="visually-hidden">purl</span><abbr title="Persistent URL">PURL</abbr>:</strong> <a href="https://gxy.io/GTN:T00201">https://gxy.io/GTN:T00201</a> </div>
+        <div><strong><i class="fas fa-fingerprint" aria-hidden="true"></i><span class="visually-hidden">purl</span> <abbr title="Persistent URL">PURL</abbr>:</strong> <a href="https://gxy.io/GTN:T00201">https://gxy.io/GTN:T00201</a> </div>
         
+
+	<div><strong><i class="fas fa-code-commit" aria-hidden="true"></i><span class="visually-hidden">version</span> Revision:</strong> 86 </div>
+
     </blockquote>
     </section>
 
@@ -670,9 +665,7 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
                  
 
                 <section aria-label="Tutorial Content" id="tutorial-content">
-                <h1 id="introduction">Introduction</h1>
-
-<p>In metagenomics, information about micro-organisms in an environment can be extracted with two main techniques:</p>
+                <p>In metagenomics, information about micro-organisms in an environment can be extracted with two main techniques:</p>
 
 <ul>
   <li>Amplicon sequencing, which sequences only the rRNA or ribosomal DNA of organisms</li>
@@ -689,7 +682,6 @@ if(localStorage.getItem('sentry-opt-out') !== 'opt-out' && navigator.doNotTrack 
   <p>In this tutorial, we will deal with:</p>
 
 <ol id="markdown-toc">
-  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
   <li><a href="#amplicon-data" id="markdown-toc-amplicon-data">Amplicon data</a>    <ol>
       <li><a href="#importing-the-data" id="markdown-toc-importing-the-data">Importing the data</a></li>
       <li><a href="#quality-control" id="markdown-toc-quality-control">Quality Control</a></li>
@@ -764,7 +756,7 @@ https://zenodo.org/record/815875/files/SRR651839_anguil.fasta
 </code></pre></div>      </div>
 
       <blockquote class="tip">
-        <div class="box-title tip-title" id="tip-importing-data-via-links"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-importing-data-via-links" aria-expanded="true"><i class="far fa-lightbulb" aria-hidden="true" ></i> Tip: Importing data via links<span class="fold-unfold fa fa-minus-square"></span></button></div>
+        <div class="box-title tip-title" id="tip-importing-data-via-links"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-importing-data-via-links" aria-expanded="true"><i class="far fa-lightbulb" aria-hidden="true" ></i> <span>Tip: Importing data via links</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
 
         <ul>
           <li>Copy the link location</li>
@@ -776,7 +768,7 @@ https://zenodo.org/record/815875/files/SRR651839_anguil.fasta
       </blockquote>
 
       <blockquote class="tip">
-        <div class="box-title tip-title" id="tip-importing-data-from-a-data-library"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-importing-data-from-a-data-library" aria-expanded="true"><i class="far fa-lightbulb" aria-hidden="true" ></i> Tip: Importing data from a data library<span class="fold-unfold fa fa-minus-square"></span></button></div>
+        <div class="box-title tip-title" id="tip-importing-data-from-a-data-library"><button class="gtn-boxify-button tip" type="button" aria-controls="tip-importing-data-from-a-data-library" aria-expanded="true"><i class="far fa-lightbulb" aria-hidden="true" ></i> <span>Tip: Importing data from a data library</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
 
         <ul>
           <li>Go into “Shared data” (top panel) then “Data libraries”</li>
@@ -873,7 +865,7 @@ times, we’ll unique our sequences using the <code class="language-plaintext hi
         <p>How many sequences were unique? How many duplicates were removed?</p>
 
         <blockquote class="solution">
-          <div class="box-title solution-title" id="solution"><button class="gtn-boxify-button solution" type="button" aria-controls="solution" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+          <div class="box-title solution-title" id="solution"><button class="gtn-boxify-button solution" type="button" aria-controls="solution" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
           <p>19,502 unique sequences and 498 duplicates.</p>
 
           <p>This can be determined from the number of lines in the fasta (or names) output, compared to the
@@ -987,7 +979,7 @@ Furthermore, at least one read had a homopolymer stretch of 31 bases, this is li
   <p>How many reads were removed in this screening step? (Hint: run the <code class="language-plaintext highlighter-rouge">Summary.seqs</code> tool again)</p>
 
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-1"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-1" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-1"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-1" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>1,804.</p>
 
     <p>This can be determined by looking at the number of lines in bad.accnos output of screen.seqs step or by comparing the total number of seqs between of the summary.seqs log before and after this screening step</p>
@@ -1052,7 +1044,7 @@ total # of seqs:    18178
   </ol>
 
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-2"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-2" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-2"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-2" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>17,698 are aligned</li>
       <li>From this we can see that most of our reads align nicely to positions <code class="language-plaintext highlighter-rouge">3080-13424</code> on this reference. This corresponds exactly to the V4 target region of the 16S gene.</li>
@@ -1082,7 +1074,7 @@ total # of seqs:    18178
   <div class="box-title question-title" id="question-3"><i class="far fa-question-circle" aria-hidden="true" ></i> Question</div>
   <p>How many sequences were removed in this step?</p>
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-3"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-3" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-3"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-3" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>4,579 sequences were removed. This is the number of lines in the bad.accnos output.</p>
   </blockquote>
 </blockquote>
@@ -1139,7 +1131,7 @@ total # of seqs:    18178
 
     <p>How many unique sequences are we left with after this clustering of highly similar sequences?</p>
     <blockquote class="solution">
-      <div class="box-title solution-title" id="solution-4"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-4" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+      <div class="box-title solution-title" id="solution-4"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-4" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
       <p>10,398</p>
 
       <p>This is the number of lines in the fasta output</p>
@@ -1268,7 +1260,7 @@ SRR531818.61708-G88ZSJI01AVPPR-2    Bacteria(100);Acidobacteria(99);Acidobacteri
   </ol>
 
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-5"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-5" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-5"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-5" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>2,195 for Anguil and 2,472 for Pampa (“tax.summary”)</li>
       <li>Otu00001 is associated to 929 sequences and to Bacteria (kingdom), Verrucomicrobia (phylum), Spartobacteria (class) in “taxonomy” file</li>
@@ -1333,7 +1325,7 @@ the two samples?</p>
   <div class="box-title question-title" id="question-6"><i class="far fa-question-circle" aria-hidden="true" ></i> Question</div>
   <p>Which soil sample had a higher percentage of Acidobacteria, anguil or pampa? what were the respective percentages?</p>
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-6"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-6" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-6"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-6" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>The anguil sample had a higher proportion of Acidobacteria. The exact percentages can be found by looking at the pie charts at the
 top right-hand corner after clicking on the label Acidobacteria. For anguil the percentage is 36%, for the pampa sample it is 26%.</p>
 
@@ -1465,7 +1457,7 @@ top right-hand corner after clicking on the label Acidobacteria. For anguil the 
   </ol>
 
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-7"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-7" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-7"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-7" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <ol>
       <li>We have access to species level</li>
       <li>Pseudomonadales and Solirubrobacterales are found in our sample</li>
@@ -1559,7 +1551,7 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
   <p>How many gene families and pathways have been identified?</p>
 
   <blockquote class="solution">
-    <div class="box-title solution-title" id="solution-8"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-8" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+    <div class="box-title solution-title" id="solution-8"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-8" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
     <p>44 gene families but no pathways are identified</p>
   </blockquote>
 </blockquote>
@@ -1588,7 +1580,7 @@ https://zenodo.org/record/815875/files/humann2_pathways_coverage.tsv
     </ol>
 
     <blockquote class="solution">
-      <div class="box-title solution-title" id="solution-9"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-9" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> Solution<span class="fold-unfold fa fa-minus-square"></span></button></div>
+      <div class="box-title solution-title" id="solution-9"><button class="gtn-boxify-button solution" type="button" aria-controls="solution-9" aria-expanded="true"><i class="far fa-eye" aria-hidden="true" ></i> <span>Solution</span><span class="fold-unfold fa fa-minus-square"></span></button></div>
       <ol>
         <li>55% of the sequences have not be assigned to a gene family</li>
         <li>The most abundant gene family with 25% of sequences is a putative secreted protein</li>
@@ -1749,107 +1741,107 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions: 73486cc6170e
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: humann2
   owner: iuc
   revisions: 1ab06263e083
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: humann2_regroup_table
   owner: iuc
   revisions: a1747df2bc21
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: humann2_renorm_table
   owner: iuc
   revisions: ba4dfbdc1295
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan2
   owner: iuc
   revisions: 8c82c4d90cc6
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan2krona
   owner: iuc
   revisions: ebb74774457e
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_align_seqs
   owner: iuc
   revisions: 2692b3107533
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_classify_otu
   owner: iuc
   revisions: e664787de3ab
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_classify_seqs
   owner: iuc
   revisions: cc9c7b550c29
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_cluster_split
   owner: iuc
   revisions: a29ac7993cb0
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_count_seqs
   owner: iuc
   revisions: ecbd9ed733e6
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_filter_seqs
   owner: iuc
   revisions: bf20a30c263a
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_make_biom
   owner: iuc
   revisions: 5dc4d49a238a
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_make_group
   owner: iuc
   revisions: 8c964d119da8
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_make_shared
   owner: iuc
   revisions: 83dabeeadb55
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_merge_files
   owner: iuc
   revisions: a70b25374a23
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_pre_cluster
   owner: iuc
   revisions: 58d0fe3cc0f2
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_screen_seqs
   owner: iuc
   revisions: 8743aecd26a9
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_summary_seqs
   owner: iuc
   revisions: e4a4cb8b6bbf
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_unique_seqs
   owner: iuc
   revisions: 1f72d9a3d09f
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Mothur
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: krona_text
   owner: saskia-hiltemann
   revisions: b14f1444e464
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 </code></pre></div>
                 </blockquote>
@@ -1880,7 +1872,7 @@ tools:
 				The GTN infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>
 				</p>
 				<p>
-				Revision <a href="https://github.com/galaxyproject/training-material/commit/e875bc132c4f836f7e54be195e86cdb23a87a2b3">e875bc1</a>, built with Jekyll (4.3.2 | production)
+				Revision <a href="https://github.com/galaxyproject/training-material/commit/b25ac98bb846d39716adb94501f35d40a303acc1">b25ac98</a>, built with Jekyll (4.3.2 | production)
 				</p>
 			</div>
 			<div class="col-sm-6" style="text-align: right">
@@ -1908,11 +1900,7 @@ tools:
 </footer>
 
 
-    </div>
-</footer>
-
-
-        <script src='/training-material/assets/js/bundle.main.js?v=1700182826'></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src='/training-material/assets/js/bundle.9d052497.js?v=1700236868'></script>
+        
     </body>
 </html>

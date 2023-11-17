@@ -59,6 +59,7 @@
       ]
     }
   ],
+  "mathjax": null,
   "short_id": "T00036",
   "url": "/topics/assembly/tutorials/mrsa-illumina/tutorial.html",
   "topic_name": "assembly",
@@ -87,7 +88,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Genome Assembly of MRSA using Illumina MiSeq Data",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:09 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/assembly/tutorials/mrsa-illumina/tutorial.json",
@@ -130,49 +133,49 @@
         "name": "prokka",
         "owner": "crs4",
         "revisions": "111884f0d912",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "bowtie2",
         "owner": "devteam",
         "revisions": "749c918495f7",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Mapping",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "fastqc",
         "owner": "devteam",
         "revisions": "e7b2202befea",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "FASTA/FASTQ",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "bandage",
         "owner": "iuc",
         "revisions": "b2860df42e16",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Graph/Display Data",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "jbrowse",
         "owner": "iuc",
         "revisions": "6cd09d7b5f37",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Graph/Display Data",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "jbrowse",
         "owner": "iuc",
         "revisions": "17359b808b01",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Graph/Display Data",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "multiqc",
         "owner": "iuc",
         "revisions": "c1a4b5f3b432",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Quality Control",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
@@ -193,26 +196,26 @@
         "name": "tbl2gff3",
         "owner": "iuc",
         "revisions": "4a7f4b0cc0a3",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "staramr",
         "owner": "nml",
         "revisions": "2fd4d4c9c5c2",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Metagenomic Analysis",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "trimmomatic",
         "owner": "pjbriggs",
         "revisions": "d94aff5ee623",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "FASTA/FASTQ",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: prokka\n  owner: crs4\n  revisions: 111884f0d912\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bowtie2\n  owner: devteam\n  revisions: 749c918495f7\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: fastqc\n  owner: devteam\n  revisions: e7b2202befea\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bandage\n  owner: iuc\n  revisions: b2860df42e16\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 6cd09d7b5f37\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 17359b808b01\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: multiqc\n  owner: iuc\n  revisions: c1a4b5f3b432\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: quast\n  owner: iuc\n  revisions: ebb0dcdb621a\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: shovill\n  owner: iuc\n  revisions: 83ead2be47b2\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 4a7f4b0cc0a3\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: staramr\n  owner: nml\n  revisions: 2fd4d4c9c5c2\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: trimmomatic\n  owner: pjbriggs\n  revisions: d94aff5ee623\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: prokka\n  owner: crs4\n  revisions: 111884f0d912\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bowtie2\n  owner: devteam\n  revisions: 749c918495f7\n  tool_panel_section_label: Mapping\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: fastqc\n  owner: devteam\n  revisions: e7b2202befea\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bandage\n  owner: iuc\n  revisions: b2860df42e16\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 6cd09d7b5f37\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 17359b808b01\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: multiqc\n  owner: iuc\n  revisions: c1a4b5f3b432\n  tool_panel_section_label: Quality Control\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: quast\n  owner: iuc\n  revisions: ebb0dcdb621a\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: shovill\n  owner: iuc\n  revisions: 83ead2be47b2\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 4a7f4b0cc0a3\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: staramr\n  owner: nml\n  revisions: 2fd4d4c9c5c2\n  tool_panel_section_label: Metagenomic Analysis\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: trimmomatic\n  owner: pjbriggs\n  revisions: d94aff5ee623\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {
@@ -243,6 +246,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -272,6 +280,11 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "contact_for_training": true,
+      "affiliations": [
+        "CINECA-Project",
+        "gallantries",
+        "erasmusmc"
+      ],
       "location": {
         "country": "NL",
         "lat": 51.912,
@@ -293,9 +306,11 @@
     {
       "name": "Avans Hogeschool",
       "joined": "2020-11",
-      "funder": true,
-      "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+      "url": "https://training.galaxyproject.org/training-material/api/organisations/avans-atgm.json",
+      "avatar": "/training-material/shared/images/logo-avans.png",
+      "members": [
+        "hexylena"
+      ],
       "id": "avans-atgm",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
     }

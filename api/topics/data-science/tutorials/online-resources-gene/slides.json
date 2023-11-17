@@ -27,6 +27,7 @@
       "biont"
     ]
   },
+  "mathjax": null,
   "short_id": "S00109",
   "url": "/topics/data-science/tutorials/online-resources-gene/slides.html",
   "topic_name": "data-science",
@@ -59,12 +60,12 @@
         "name": "ncbi_blast_plus",
         "owner": "devteam",
         "revisions": "0e3cf9594bb7",
-        "tool_panel_section_label": "Foundations of Data Science",
+        "tool_panel_section_label": "NCBI Blast",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: ncbi_blast_plus\n  owner: devteam\n  revisions: 0e3cf9594bb7\n  tool_panel_section_label: Foundations of Data Science\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: ncbi_blast_plus\n  owner: devteam\n  revisions: 0e3cf9594bb7\n  tool_panel_section_label: NCBI Blast\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": true,
   "translations": {
@@ -107,6 +108,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -123,7 +128,7 @@
       "github": false,
       "joined": "2023-09",
       "avatar": "http://biont-training.eu/assets/img/BioNT_Logo_Layout_2106_blue_Version_2_cropped.png",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/biont.json",
+      "url": "https://training.galaxyproject.org/training-material/api/funders/biont.json",
       "funder": true,
       "funding_id": "101100604",
       "funding_system": "cordis",

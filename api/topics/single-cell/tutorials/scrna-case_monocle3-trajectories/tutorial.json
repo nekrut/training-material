@@ -57,6 +57,7 @@
       "epsrc-training-grant"
     ]
   },
+  "mathjax": null,
   "short_id": "T00249",
   "url": "/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.html",
   "topic_name": "single-cell",
@@ -114,7 +115,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "AnnData object to Monocle input files",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     },
     {
       "workflow": "Galaxy-Workflow-Monocle3_workflow.ga",
@@ -128,7 +131,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Monocle3 workflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     },
     {
       "workflow": "Trajectory-analysis-using-Monocle3---full-tutorial-workflow.ga",
@@ -146,7 +151,9 @@
           "name": "Julia Jakiela"
         }
       ],
-      "test_results": null
+      "name": "Trajectory analysis using Monocle3 - full tutorial workflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/single-cell/tutorials/scrna-case_monocle3-trajectories/tutorial.json",
@@ -195,96 +202,96 @@
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "d698c222f354",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_create",
         "owner": "ebi-gxa",
         "revisions": "ada68a9d0aec",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_diffexp",
         "owner": "ebi-gxa",
         "revisions": "d43a608d14ac",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_learngraph",
         "owner": "ebi-gxa",
         "revisions": "5f877012f7af",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_ordercells",
         "owner": "ebi-gxa",
         "revisions": "3e77dc421569",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_partition",
         "owner": "ebi-gxa",
         "revisions": "d98b4705eb4c",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_plotcells",
         "owner": "ebi-gxa",
         "revisions": "91980addce5e",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_preprocess",
         "owner": "ebi-gxa",
         "revisions": "c150370b514c",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_reducedim",
         "owner": "ebi-gxa",
         "revisions": "8900e2a18603",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "monocle3_topmarkers",
         "owner": "ebi-gxa",
         "revisions": "a4ab4af54b1a",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Monocle3",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "regex_find_replace",
         "owner": "galaxyp",
         "revisions": "399da6b5ec21",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "anndata_inspect",
         "owner": "iuc",
         "revisions": "ee98d611afc6",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Single-cell",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "datamash_transpose",
         "owner": "iuc",
         "revisions": "ac092723240d",
-        "tool_panel_section_label": "Single Cell",
+        "tool_panel_section_label": "Join, Subtract and Group",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_create\n  owner: ebi-gxa\n  revisions: ada68a9d0aec\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_diffexp\n  owner: ebi-gxa\n  revisions: d43a608d14ac\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_learngraph\n  owner: ebi-gxa\n  revisions: 5f877012f7af\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_ordercells\n  owner: ebi-gxa\n  revisions: 3e77dc421569\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_partition\n  owner: ebi-gxa\n  revisions: d98b4705eb4c\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_plotcells\n  owner: ebi-gxa\n  revisions: 91980addce5e\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_preprocess\n  owner: ebi-gxa\n  revisions: c150370b514c\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_reducedim\n  owner: ebi-gxa\n  revisions: 8900e2a18603\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_topmarkers\n  owner: ebi-gxa\n  revisions: a4ab4af54b1a\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: regex_find_replace\n  owner: galaxyp\n  revisions: 399da6b5ec21\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: anndata_inspect\n  owner: iuc\n  revisions: ee98d611afc6\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: datamash_transpose\n  owner: iuc\n  revisions: ac092723240d\n  tool_panel_section_label: Single Cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_create\n  owner: ebi-gxa\n  revisions: ada68a9d0aec\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_diffexp\n  owner: ebi-gxa\n  revisions: d43a608d14ac\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_learngraph\n  owner: ebi-gxa\n  revisions: 5f877012f7af\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_ordercells\n  owner: ebi-gxa\n  revisions: 3e77dc421569\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_partition\n  owner: ebi-gxa\n  revisions: d98b4705eb4c\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_plotcells\n  owner: ebi-gxa\n  revisions: 91980addce5e\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_preprocess\n  owner: ebi-gxa\n  revisions: c150370b514c\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_reducedim\n  owner: ebi-gxa\n  revisions: 8900e2a18603\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: monocle3_topmarkers\n  owner: ebi-gxa\n  revisions: a4ab4af54b1a\n  tool_panel_section_label: Monocle3\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: regex_find_replace\n  owner: galaxyp\n  revisions: 399da6b5ec21\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: anndata_inspect\n  owner: iuc\n  revisions: ee98d611afc6\n  tool_panel_section_label: Single-cell\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: datamash_transpose\n  owner: iuc\n  revisions: ac092723240d\n  tool_panel_section_label: Join, Subtract and Group\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {
@@ -316,6 +323,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -354,12 +366,13 @@
     },
     {
       "name": "EPSRC Training Grant DTP 2020-2021 Open University",
+      "short_name": "EPSRC/OU",
       "github": false,
       "joined": "2022-09",
       "funder": true,
       "funding_statement": "The research internship was supported through EPSRC Training Grant DTP 2020-2021 Open University",
+      "url": "https://training.galaxyproject.org/training-material/api/funders/epsrc-training-grant.json",
       "id": "epsrc-training-grant",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/epsrc-training-grant.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/epsrc-training-grant/"
     }
   ]

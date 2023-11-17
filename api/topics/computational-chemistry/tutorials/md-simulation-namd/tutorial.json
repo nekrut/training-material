@@ -59,6 +59,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00052",
   "url": "/topics/computational-chemistry/tutorials/md-simulation-namd/tutorial.html",
   "topic_name": "computational-chemistry",
@@ -87,7 +88,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "MD NAMD",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:09 +0000"
     },
     {
       "workflow": "main_workflow_charmmgui.ga",
@@ -101,7 +104,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "NAMD MD From CHARMM GUI",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:09 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/computational-chemistry/tutorials/md-simulation-namd/tutorial.json",

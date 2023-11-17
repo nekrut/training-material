@@ -59,6 +59,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -113,6 +117,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -124,6 +133,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00189",
   "url": "/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html",
   "topic_name": "introduction",
@@ -152,7 +162,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Galaxy Introduction Peaks2Genes - Part 1",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:11 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.json",
@@ -209,47 +221,47 @@
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "d698c222f354",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "d698c222f354",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "d698c222f354",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "column_maker",
         "owner": "devteam",
         "revisions": "6595517c2dd8",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "get_flanks",
         "owner": "devteam",
         "revisions": "077f404ae1bb",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "intersect",
         "owner": "devteam",
         "revisions": "69c10b56f46d",
-        "tool_panel_section_label": "Introduction to Galaxy Analyses",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: column_maker\n  owner: devteam\n  revisions: 6595517c2dd8\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: get_flanks\n  owner: devteam\n  revisions: 077f404ae1bb\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: intersect\n  owner: devteam\n  revisions: 69c10b56f46d\n  tool_panel_section_label: Introduction to Galaxy Analyses\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: column_maker\n  owner: devteam\n  revisions: 6595517c2dd8\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: get_flanks\n  owner: devteam\n  revisions: 077f404ae1bb\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: intersect\n  owner: devteam\n  revisions: 69c10b56f46d\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {

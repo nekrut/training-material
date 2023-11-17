@@ -34,6 +34,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -48,6 +52,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -144,6 +153,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00043",
       "url": "/topics/dev/tutorials/architecture/slides.html",
       "topic_name": "dev",
@@ -244,6 +254,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -265,6 +279,7 @@
         }
       ],
       "subtopic": "advanced",
+      "mathjax": null,
       "short_id": "S00049",
       "url": "/topics/dev/tutorials/interactive-tours/slides.html",
       "topic_name": "dev",
@@ -352,6 +367,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -387,11 +405,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00052",
       "url": "/topics/dev/tutorials/toolshed/slides.html",
       "topic_name": "dev",
@@ -491,6 +514,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -517,6 +545,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -537,6 +569,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -587,6 +622,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lecorguille/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00051",
       "url": "/topics/dev/tutorials/tool-integration/slides.html",
       "topic_name": "dev",
@@ -672,6 +708,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -706,6 +747,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -718,6 +764,7 @@
         }
       ],
       "subtopic": "advanced",
+      "mathjax": null,
       "short_id": "S00048",
       "url": "/topics/dev/tutorials/interactive-environments/slides.html",
       "topic_name": "dev",
@@ -829,6 +876,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00047",
       "url": "/topics/dev/tutorials/containers/slides.html",
       "topic_name": "dev",
@@ -943,6 +991,7 @@
         }
       ],
       "subtopic": "advanced",
+      "mathjax": null,
       "short_id": "T00122",
       "url": "/topics/dev/tutorials/webhooks/tutorial.html",
       "topic_name": "dev",
@@ -1029,6 +1078,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -1046,6 +1100,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yhoogstrate/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00121",
       "url": "/topics/dev/tutorials/visualization-generic/tutorial.html",
       "topic_name": "dev",
@@ -1132,6 +1187,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -1144,6 +1202,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cmonjeau/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00046",
       "url": "/topics/dev/tutorials/conda_sys/slides.html",
       "topic_name": "dev",
@@ -1277,6 +1336,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hmenager/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00045",
       "url": "/topics/dev/tutorials/conda/slides.html",
       "topic_name": "dev",
@@ -1400,6 +1460,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1411,6 +1476,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00118",
       "url": "/topics/dev/tutorials/tool-generators/tutorial.html",
       "topic_name": "dev",
@@ -1527,6 +1593,7 @@
       "notebook": {
         "language": "python"
       },
+      "mathjax": null,
       "short_id": "T00111",
       "url": "/topics/dev/tutorials/bioblend-api/tutorial.html",
       "topic_name": "dev",
@@ -1608,6 +1675,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1652,6 +1724,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -1698,6 +1775,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dannon/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00120",
       "url": "/topics/dev/tutorials/visualization-charts/tutorial.html",
       "topic_name": "dev",
@@ -1797,6 +1875,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bernt-matthias/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00117",
       "url": "/topics/dev/tutorials/tool-from-scratch/tutorial.html",
       "topic_name": "dev",
@@ -1963,6 +2042,9 @@
           "orcid": "0000-0002-8504-068X",
           "joined": "2017-09",
           "elixir_node": "fr",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "yvanlebras",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/yvanlebras.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/"
@@ -2002,6 +2084,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -2016,6 +2101,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2027,6 +2117,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00116",
       "url": "/topics/dev/tutorials/interactive-tools/tutorial.html",
       "topic_name": "dev",
@@ -2139,6 +2230,7 @@
         }
       ],
       "subtopic": "core",
+      "mathjax": null,
       "short_id": "T00123",
       "url": "/topics/dev/tutorials/writing_tests/tutorial.html",
       "topic_name": "dev",
@@ -2244,6 +2336,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00113",
       "url": "/topics/dev/tutorials/core-contributing/tutorial.html",
       "topic_name": "dev",
@@ -2321,6 +2414,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2337,6 +2434,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -2365,6 +2467,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2382,6 +2489,7 @@
         "Data flows from the external data resource to the Galaxy server without the need of \"downloading\" the data"
       ],
       "subtopic": "advanced",
+      "mathjax": null,
       "short_id": "T00114",
       "url": "/topics/dev/tutorials/data-source-integration/tutorial.html",
       "topic_name": "dev",
@@ -2508,6 +2616,7 @@
         }
       ],
       "subtopic": "core",
+      "mathjax": null,
       "short_id": "T00115",
       "url": "/topics/dev/tutorials/debugging/tutorial.html",
       "topic_name": "dev",
@@ -2617,6 +2726,7 @@
         "API": "Application Programming Interface",
         "PR": "Pull Request"
       },
+      "mathjax": null,
       "short_id": "T00112",
       "url": "/topics/dev/tutorials/bioblend-dev/tutorial.html",
       "topic_name": "dev",
@@ -2718,6 +2828,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fubar2/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00119",
       "url": "/topics/dev/tutorials/tool-generators-advanced/tutorial.html",
       "topic_name": "dev",

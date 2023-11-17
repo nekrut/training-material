@@ -76,6 +76,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jfaulon/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00274",
   "url": "/topics/synthetic-biology/tutorials/pathway_analysis/tutorial.html",
   "topic_name": "synthetic-biology",
@@ -131,7 +132,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Pathway Analysis",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/synthetic-biology/tutorials/pathway_analysis/tutorial.json",

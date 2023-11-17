@@ -133,7 +133,9 @@
       "resources": [
         "assets/js/theme.js"
       ],
-      "timestamp": 1700182826
+      "timestamp": 1700236868,
+      "hash": "f1f2de89",
+      "path": "/assets/js/bundle.f1f2de89.js"
     },
     "main": {
       "preload": true,
@@ -146,7 +148,9 @@
         "assets/js/list.min.js",
         "assets/js/main.js"
       ],
-      "timestamp": 1700182826
+      "timestamp": 1700236868,
+      "hash": "9d052497",
+      "path": "/assets/js/bundle.9d052497.js"
     }
   },
   "figurify": {
@@ -247,7 +251,7 @@
     "param-select": "fas fa-filter",
     "param-text": "fas fa-pencil-alt",
     "param-toggle": "fas fa-toggle-on",
-    "point-right": "fa fa-hand-o-right",
+    "point-right": "far fa-hand-point-right",
     "pref-info": "fas fa-user",
     "pref-password": "fas fa-unlock-alt",
     "pref-identities": "far fa-id-card-o",
@@ -285,13 +289,14 @@
     "workflow-run": "fas fa-play",
     "video": "fas fa-video",
     "video-slides": "far fa-play-circle",
-    "zenodo_link": "far fa-copy"
+    "zenodo_link": "far fa-copy",
+    "version": "fas fa-code-commit"
   },
   "serving": false,
   "boxify": {
   },
-  "git_revision": "e875bc132c4f836f7e54be195e86cdb23a87a2b3",
-  "git_revision_short": "e875bc1",
+  "git_revision": "b25ac98bb846d39716adb94501f35d40a303acc1",
+  "git_revision_short": "b25ac98",
   "gtn_fork": "nekrut",
   "git_tags": [
     "2019-02-07",

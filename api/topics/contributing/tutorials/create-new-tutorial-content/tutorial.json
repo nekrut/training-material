@@ -24,12 +24,16 @@
     "editing": [
       "bgruening",
       "shiltemann"
+    ],
+    "funding": [
+      "gallantries"
     ]
   },
   "abbreviations": {
     "API": "Application Programming Interface",
     "JSON": "JavaScript Object Notation"
   },
+  "mathjax": 13799,
   "short_id": "T00058",
   "url": "/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html",
   "topic_name": "contributing",
@@ -63,12 +67,12 @@
         "name": "multiqc",
         "owner": "iuc",
         "revisions": "bf675f34b056",
-        "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+        "tool_panel_section_label": "Quality Control",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: multiqc\n  owner: iuc\n  revisions: bf675f34b056\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: multiqc\n  owner: iuc\n  revisions: bf675f34b056\n  tool_panel_section_label: Quality Control\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {
@@ -99,6 +103,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -113,6 +121,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -150,6 +163,11 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "contact_for_training": true,
+      "affiliations": [
+        "CINECA-Project",
+        "gallantries",
+        "erasmusmc"
+      ],
       "location": {
         "country": "NL",
         "lat": 51.912,
@@ -158,6 +176,31 @@
       "id": "shiltemann",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
+    },
+    {
+      "name": "Gallantries: Bridging Training Communities in Life Science, Environment and Health",
+      "short_name": "Gallantries",
+      "start_date": "2020-09-01",
+      "end_date": "2023-09-30",
+      "joined": "2020-09",
+      "avatar": "https://gallantries.github.io/assets/images/gallantries-logo.png",
+      "github": false,
+      "funder": true,
+      "url": "https://training.galaxyproject.org/training-material/api/funders/gallantries.json",
+      "funder_name": "Erasmus+ Programme",
+      "funding_id": "2020-1-NL01-KA203-064717",
+      "funding_system": "erasmusplus",
+      "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />\n<img src=\"https://www.erasmusplus.nl/assets/images/logo.png\" alt=\"erasmus plus logo\" />",
+      "members": [
+        "abretaud",
+        "bebatut",
+        "fpsom",
+        "hexylena",
+        "shiltemann",
+        "yvanlebras"
+      ],
+      "id": "gallantries",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallantries/"
     }
   ]
 }

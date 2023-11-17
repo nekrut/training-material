@@ -36,6 +36,7 @@
   "notebook": {
     "language": "python"
   },
+  "mathjax": null,
   "short_id": "T00111",
   "url": "/topics/dev/tutorials/bioblend-api/tutorial.html",
   "topic_name": "dev",
@@ -117,6 +118,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

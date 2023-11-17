@@ -51,6 +51,7 @@
     "DDA",
     "human"
   ],
+  "mathjax": null,
   "short_id": "T00213",
   "url": "/topics/proteomics/tutorials/biomarker_selection/tutorial.html",
   "topic_name": "proteomics",
@@ -79,7 +80,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "'Biomarkers4Paris' Workflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/proteomics/tutorials/biomarker_selection/tutorial.json",
@@ -120,7 +123,7 @@
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "288462ec2630",
-        "tool_panel_section_label": "Proteomics",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
@@ -174,7 +177,7 @@
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: 288462ec2630\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_expression_rnaseq_abbased\n  owner: proteore\n  revisions: dbeabf9bf091\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_filter_keywords_values\n  owner: proteore\n  revisions: 33ca9ba2495a\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_id_converter\n  owner: proteore\n  revisions: b6607b7e683f\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_ms_observation_pepatlas\n  owner: proteore\n  revisions: 299eb4a62e0c\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_prot_features\n  owner: proteore\n  revisions: 8df559ad14a7\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_tissue_specific_expression_data\n  owner: proteore\n  revisions: 3e65e0249976\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_venn_diagram\n  owner: proteore\n  revisions: d1fd04dcb13a\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: 288462ec2630\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_expression_rnaseq_abbased\n  owner: proteore\n  revisions: dbeabf9bf091\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_filter_keywords_values\n  owner: proteore\n  revisions: 33ca9ba2495a\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_id_converter\n  owner: proteore\n  revisions: b6607b7e683f\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_ms_observation_pepatlas\n  owner: proteore\n  revisions: 299eb4a62e0c\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_prot_features\n  owner: proteore\n  revisions: 8df559ad14a7\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_tissue_specific_expression_data\n  owner: proteore\n  revisions: 3e65e0249976\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: proteore_venn_diagram\n  owner: proteore\n  revisions: d1fd04dcb13a\n  tool_panel_section_label: Proteomics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {

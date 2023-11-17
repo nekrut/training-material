@@ -34,7 +34,7 @@
       "name": "The Carpentries",
       "joined": "2021-09",
       "id": "carpentries",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json",
+      "url": "https://training.galaxyproject.org/training-material/api/organisations/carpentries.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/carpentries/"
     },
     {
@@ -47,6 +47,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -79,6 +84,7 @@
     "language": "python",
     "pyolite": true
   },
+  "mathjax": null,
   "short_id": "T00091",
   "url": "/topics/data-science/tutorials/python-iterables/tutorial.html",
   "topic_name": "data-science",

@@ -95,11 +95,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00263",
       "url": "/topics/statistics/tutorials/classification_regression/tutorial.html",
       "topic_name": "statistics",
@@ -128,7 +133,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Classification LSVC",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         },
         {
           "workflow": "regression_GradientBoosting.ga",
@@ -142,7 +149,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Regression GradientBoosting",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/classification_regression/tutorial.json",
@@ -194,33 +203,33 @@
             "name": "plotly_ml_performance_plots",
             "owner": "bgruening",
             "revisions": "85da91bbdbfb",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "plotly_regression_performance_plots",
             "owner": "bgruening",
             "revisions": "389227fa1864",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "1a53edc4b438",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_svm_classifier",
             "owner": "bgruening",
             "revisions": "f9639b488779",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_ml_performance_plots\n  owner: bgruening\n  revisions: 85da91bbdbfb\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: f9639b488779\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_ml_performance_plots\n  owner: bgruening\n  revisions: 85da91bbdbfb\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: f9639b488779\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -279,6 +288,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00264",
       "url": "/topics/statistics/tutorials/clustering_machinelearning/tutorial.html",
       "topic_name": "statistics",
@@ -307,7 +317,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Clustering in Machine Learning",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/clustering_machinelearning/tutorial.json",
@@ -362,19 +374,19 @@
             "name": "sklearn_numeric_clustering",
             "owner": "bgruening",
             "revisions": "1dd433d2c92c",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ggplot2_point",
             "owner": "iuc",
             "revisions": "e3a675da7fd0",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: sklearn_numeric_clustering\n  owner: bgruening\n  revisions: 1dd433d2c92c\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: e3a675da7fd0\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: sklearn_numeric_clustering\n  owner: bgruening\n  revisions: 1dd433d2c92c\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ggplot2_point\n  owner: iuc\n  revisions: e3a675da7fd0\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -428,6 +440,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
+      "mathjax": 1168,
       "short_id": "T00257",
       "url": "/topics/statistics/tutorials/CNN/tutorial.html",
       "topic_name": "statistics",
@@ -491,7 +504,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Intro_To_CNN",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/CNN/tutorial.json",
@@ -535,47 +550,47 @@
             "name": "keras_model_builder",
             "owner": "bgruening",
             "revisions": "772e0e89fc68",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_model_config",
             "owner": "bgruening",
             "revisions": "8a794e6d3388",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "b6ef6d0cb6b7",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "947c2eacccb8",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "1552b8cb4a94",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_to_categorical",
             "owner": "bgruening",
             "revisions": "ec69cbe34b73",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: b6ef6d0cb6b7\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 1552b8cb4a94\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_to_categorical\n  owner: bgruening\n  revisions: ec69cbe34b73\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: b6ef6d0cb6b7\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 1552b8cb4a94\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_to_categorical\n  owner: bgruening\n  revisions: ec69cbe34b73\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -624,6 +639,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
+      "mathjax": 24789,
       "short_id": "T00265",
       "url": "/topics/statistics/tutorials/fruit_360/tutorial.html",
       "topic_name": "statistics",
@@ -688,7 +704,9 @@
               "name": "Kaivan Kamali"
             }
           ],
-          "test_results": null
+          "name": "fruit_360",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/fruit_360/tutorial.json",
@@ -736,75 +754,75 @@
             "name": "keras_model_builder",
             "owner": "bgruening",
             "revisions": "772e0e89fc68",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_model_config",
             "owner": "bgruening",
             "revisions": "8a794e6d3388",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "f1b9a42d6809",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "b6ef6d0cb6b7",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "05143043ca13",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "947c2eacccb8",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "83228baae3c5",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "1552b8cb4a94",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_to_categorical",
             "owner": "bgruening",
             "revisions": "ec69cbe34b73",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "text_processing",
             "owner": "bgruening",
             "revisions": "d698c222f354",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Text Manipulation",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: f1b9a42d6809\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: b6ef6d0cb6b7\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 05143043ca13\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 83228baae3c5\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 1552b8cb4a94\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_to_categorical\n  owner: bgruening\n  revisions: ec69cbe34b73\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: f1b9a42d6809\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: b6ef6d0cb6b7\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 05143043ca13\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 83228baae3c5\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 1552b8cb4a94\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_to_categorical\n  owner: bgruening\n  revisions: ec69cbe34b73\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -858,6 +876,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00270",
       "url": "/topics/statistics/tutorials/machinelearning/tutorial.html",
       "topic_name": "statistics",
@@ -886,6 +905,7 @@
           "creators": [
 
           ],
+          "name": "Machine Learning",
           "test_results": {
             "eu": {
               "summary": {
@@ -1405,7 +1425,8 @@
               ],
               "version": "0.1"
             }
-          }
+          },
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/machinelearning/tutorial.json",
@@ -1458,12 +1479,12 @@
             "name": "sklearn_svm_classifier",
             "owner": "bgruening",
             "revisions": "f9639b488779",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: f9639b488779\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: f9639b488779\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1533,6 +1554,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00266",
       "url": "/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.html",
       "topic_name": "statistics",
@@ -1561,7 +1583,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "gpu_jupytool",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/gpu_jupyter_lab/tutorial.json",
@@ -1646,6 +1670,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/anuprulez/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00261",
       "url": "/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html",
       "topic_name": "statistics",
@@ -1674,7 +1699,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Age Prediction DNA Methylation",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         },
         {
           "workflow": "age-prediction-rna.ga",
@@ -1688,7 +1715,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Age Prediction RNA-Seq",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/age-prediction-with-ml/tutorial.json",
@@ -1741,40 +1770,40 @@
             "name": "plotly_parallel_coordinates_plot",
             "owner": "bgruening",
             "revisions": "7b21a9b5922f",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "plotly_regression_performance_plots",
             "owner": "bgruening",
             "revisions": "389227fa1864",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_build_pipeline",
             "owner": "bgruening",
             "revisions": "840f29aad145",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "1a53edc4b438",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_searchcv",
             "owner": "bgruening",
             "revisions": "25ab6b4e376e",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_parallel_coordinates_plot\n  owner: bgruening\n  revisions: 7b21a9b5922f\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 840f29aad145\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 25ab6b4e376e\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_parallel_coordinates_plot\n  owner: bgruening\n  revisions: 7b21a9b5922f\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 840f29aad145\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 25ab6b4e376e\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1844,6 +1873,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00272",
       "url": "/topics/statistics/tutorials/text-mining_simtext/tutorial.html",
       "topic_name": "statistics",
@@ -1876,7 +1906,9 @@
               "name": ""
             }
           ],
-          "test_results": null
+          "name": "Simtext training workflow",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/text-mining_simtext/tutorial.json",
@@ -1907,19 +1939,19 @@
             "name": "pmids_to_pubtator_matrix",
             "owner": "iuc",
             "revisions": "69714f06f18b",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Other Tools",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "pubmed_by_queries",
             "owner": "iuc",
             "revisions": "02e46a96e98a",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Other Tools",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: pmids_to_pubtator_matrix\n  owner: iuc\n  revisions: 69714f06f18b\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: pubmed_by_queries\n  owner: iuc\n  revisions: 02e46a96e98a\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: pmids_to_pubtator_matrix\n  owner: iuc\n  revisions: 69714f06f18b\n  tool_panel_section_label: Other Tools\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: pubmed_by_queries\n  owner: iuc\n  revisions: 02e46a96e98a\n  tool_panel_section_label: Other Tools\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1981,6 +2013,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
+      "mathjax": 2165,
       "short_id": "T00258",
       "url": "/topics/statistics/tutorials/FNN/tutorial.html",
       "topic_name": "statistics",
@@ -2048,7 +2081,9 @@
               "name": "Kaivan Kamali"
             }
           ],
-          "test_results": null
+          "name": "Intro_To_FNN_v1_0_10_0",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/FNN/tutorial.json",
@@ -2100,40 +2135,40 @@
             "name": "keras_model_builder",
             "owner": "bgruening",
             "revisions": "66d7efc06000",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_model_config",
             "owner": "bgruening",
             "revisions": "f22a9297440f",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "818f9b69d8a0",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "9991c4ddde14",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "plotly_regression_performance_plots",
             "owner": "bgruening",
             "revisions": "389227fa1864",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 66d7efc06000\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: f22a9297440f\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: 818f9b69d8a0\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 9991c4ddde14\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 66d7efc06000\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: f22a9297440f\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: 818f9b69d8a0\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 9991c4ddde14\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2192,6 +2227,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/khanteymoori/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00268",
       "url": "/topics/statistics/tutorials/intro_deep_learning/tutorial.html",
       "topic_name": "statistics",
@@ -2220,7 +2256,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Intro_To_Deep_Learning",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/intro_deep_learning/tutorial.json",
@@ -2273,40 +2311,40 @@
             "name": "keras_model_builder",
             "owner": "bgruening",
             "revisions": "772e0e89fc68",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_model_config",
             "owner": "bgruening",
             "revisions": "8a794e6d3388",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "f1b9a42d6809",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "05143043ca13",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "83228baae3c5",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: f1b9a42d6809\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 05143043ca13\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 83228baae3c5\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 772e0e89fc68\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: 8a794e6d3388\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: f1b9a42d6809\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 05143043ca13\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 83228baae3c5\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2370,6 +2408,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cumbof/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00269",
       "url": "/topics/statistics/tutorials/iwtomics/tutorial.html",
       "topic_name": "statistics",
@@ -2398,7 +2437,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Workflow Constructed From History 'IWTomics Workflow'",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/iwtomics/tutorial.json",
@@ -2449,26 +2490,26 @@
             "name": "iwtomics_loadandplot",
             "owner": "iuc",
             "revisions": "ce633cc8f5f9",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Statistics",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "iwtomics_plotwithscale",
             "owner": "iuc",
             "revisions": "1bc9150ed125",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Statistics",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "iwtomics_testandplot",
             "owner": "iuc",
             "revisions": "94965e369be4",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Statistics",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: iwtomics_loadandplot\n  owner: iuc\n  revisions: ce633cc8f5f9\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: iwtomics_plotwithscale\n  owner: iuc\n  revisions: 1bc9150ed125\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: iwtomics_testandplot\n  owner: iuc\n  revisions: 94965e369be4\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: iwtomics_loadandplot\n  owner: iuc\n  revisions: ce633cc8f5f9\n  tool_panel_section_label: Statistics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: iwtomics_plotwithscale\n  owner: iuc\n  revisions: 1bc9150ed125\n  tool_panel_section_label: Statistics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: iwtomics_testandplot\n  owner: iuc\n  revisions: 94965e369be4\n  tool_panel_section_label: Statistics\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2530,6 +2571,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/"
         }
       ],
+      "mathjax": 22231,
       "short_id": "T00259",
       "url": "/topics/statistics/tutorials/RNN/tutorial.html",
       "topic_name": "statistics",
@@ -2597,7 +2639,9 @@
               "name": "Kaivan Kamali"
             }
           ],
-          "test_results": null
+          "name": "Intro_To_RNN_v1_0_10_0",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/RNN/tutorial.json",
@@ -2650,47 +2694,47 @@
             "name": "keras_model_builder",
             "owner": "bgruening",
             "revisions": "66d7efc06000",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_model_config",
             "owner": "bgruening",
             "revisions": "f22a9297440f",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "keras_train_and_eval",
             "owner": "bgruening",
             "revisions": "818f9b69d8a0",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "1588f9076e32",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "ml_visualization_ex",
             "owner": "bgruening",
             "revisions": "947c2eacccb8",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "model_prediction",
             "owner": "bgruening",
             "revisions": "9991c4ddde14",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 66d7efc06000\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: f22a9297440f\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: 818f9b69d8a0\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 1588f9076e32\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 9991c4ddde14\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: keras_model_builder\n  owner: bgruening\n  revisions: 66d7efc06000\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_model_config\n  owner: bgruening\n  revisions: f22a9297440f\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: keras_train_and_eval\n  owner: bgruening\n  revisions: 818f9b69d8a0\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 1588f9076e32\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: ml_visualization_ex\n  owner: bgruening\n  revisions: 947c2eacccb8\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: model_prediction\n  owner: bgruening\n  revisions: 9991c4ddde14\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2749,6 +2793,7 @@
         "cancer biomarkers",
         "oncogenes and tumor suppressor genes"
       ],
+      "mathjax": null,
       "short_id": "T00260",
       "url": "/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis/tutorial.html",
       "topic_name": "statistics",
@@ -2777,7 +2822,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "papaa@0.1.9_PI3K_OG_model_tutorial",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/aberrant_pi3k_pathway_analysis/tutorial.json",
@@ -2960,6 +3007,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00271",
       "url": "/topics/statistics/tutorials/regression_machinelearning/tutorial.html",
       "topic_name": "statistics",
@@ -3023,7 +3071,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Regression (from training material)",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/regression_machinelearning/tutorial.json",
@@ -3080,68 +3130,68 @@
             "name": "plotly_regression_performance_plots",
             "owner": "bgruening",
             "revisions": "389227fa1864",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_build_pipeline",
             "owner": "bgruening",
             "revisions": "840f29aad145",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_build_pipeline",
             "owner": "bgruening",
             "revisions": "b1eda492f063",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "1a53edc4b438",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "a07ab242b0b5",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_generalized_linear",
             "owner": "bgruening",
             "revisions": "91c4e3331208",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_generalized_linear",
             "owner": "bgruening",
             "revisions": "dc4b5fd604a6",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_searchcv",
             "owner": "bgruening",
             "revisions": "25ab6b4e376e",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_searchcv",
             "owner": "bgruening",
             "revisions": "301e07345c93",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 840f29aad145\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: b1eda492f063\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: a07ab242b0b5\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: 91c4e3331208\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: dc4b5fd604a6\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 25ab6b4e376e\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 301e07345c93\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_regression_performance_plots\n  owner: bgruening\n  revisions: 389227fa1864\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 840f29aad145\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: b1eda492f063\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 1a53edc4b438\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: a07ab242b0b5\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: 91c4e3331208\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: dc4b5fd604a6\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 25ab6b4e376e\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 301e07345c93\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -3209,6 +3259,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00262",
       "url": "/topics/statistics/tutorials/classification_machinelearning/tutorial.html",
       "topic_name": "statistics",
@@ -3273,7 +3324,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "ml_classification",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:12 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/statistics/tutorials/classification_machinelearning/tutorial.json",
@@ -3335,103 +3388,103 @@
             "name": "plotly_ml_performance_plots",
             "owner": "bgruening",
             "revisions": "62e3a4e8c54c",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Graph/Display Data",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_build_pipeline",
             "owner": "bgruening",
             "revisions": "9c3e1d3235c8",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_build_pipeline",
             "owner": "bgruening",
             "revisions": "b1eda492f063",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "841a6cc5fc58",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_ensemble",
             "owner": "bgruening",
             "revisions": "a07ab242b0b5",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_estimator_attributes",
             "owner": "bgruening",
             "revisions": "07843f917990",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_generalized_linear",
             "owner": "bgruening",
             "revisions": "40f4447733b2",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_generalized_linear",
             "owner": "bgruening",
             "revisions": "dc4b5fd604a6",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_nn_classifier",
             "owner": "bgruening",
             "revisions": "cd02bf168d23",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_nn_classifier",
             "owner": "bgruening",
             "revisions": "2c58b83c9bad",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_searchcv",
             "owner": "bgruening",
             "revisions": "e5a5ad882f1f",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_searchcv",
             "owner": "bgruening",
             "revisions": "301e07345c93",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_svm_classifier",
             "owner": "bgruening",
             "revisions": "02d2be90dedb",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "sklearn_svm_classifier",
             "owner": "bgruening",
             "revisions": "b7c3e9a3b954",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_ml_performance_plots\n  owner: bgruening\n  revisions: 62e3a4e8c54c\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 9c3e1d3235c8\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: b1eda492f063\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 841a6cc5fc58\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: a07ab242b0b5\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_estimator_attributes\n  owner: bgruening\n  revisions: '07843f917990'\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: 40f4447733b2\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: dc4b5fd604a6\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_nn_classifier\n  owner: bgruening\n  revisions: cd02bf168d23\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_nn_classifier\n  owner: bgruening\n  revisions: 2c58b83c9bad\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: e5a5ad882f1f\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 301e07345c93\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: 02d2be90dedb\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: b7c3e9a3b954\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: plotly_ml_performance_plots\n  owner: bgruening\n  revisions: 62e3a4e8c54c\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: 9c3e1d3235c8\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_build_pipeline\n  owner: bgruening\n  revisions: b1eda492f063\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: 841a6cc5fc58\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_ensemble\n  owner: bgruening\n  revisions: a07ab242b0b5\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_estimator_attributes\n  owner: bgruening\n  revisions: '07843f917990'\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: 40f4447733b2\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_generalized_linear\n  owner: bgruening\n  revisions: dc4b5fd604a6\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_nn_classifier\n  owner: bgruening\n  revisions: cd02bf168d23\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_nn_classifier\n  owner: bgruening\n  revisions: 2c58b83c9bad\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: e5a5ad882f1f\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_searchcv\n  owner: bgruening\n  revisions: 301e07345c93\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: 02d2be90dedb\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: sklearn_svm_classifier\n  owner: bgruening\n  revisions: b7c3e9a3b954\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -3485,6 +3538,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cumbof/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00337",
       "url": "/topics/statistics/tutorials/hyperdimensional_computing/tutorial.html",
       "topic_name": "statistics",
@@ -3526,12 +3580,12 @@
             "name": "chopin2",
             "owner": "iuc",
             "revisions": "d49893faf877",
-            "tool_panel_section_label": "Statistics and machine learning",
+            "tool_panel_section_label": "Machine Learning",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: chopin2\n  owner: iuc\n  revisions: d49893faf877\n  tool_panel_section_label: Statistics and machine learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: chopin2\n  owner: iuc\n  revisions: d49893faf877\n  tool_panel_section_label: Machine Learning\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -3612,25 +3666,40 @@
           "linkedin": "fpsom",
           "joined": "2019-03",
           "elixir_node": "gr",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "fpsom",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
         },
         {
-          "name": "Gallantries Project",
+          "name": "Gallantries: Bridging Training Communities in Life Science, Environment and Health",
+          "short_name": "Gallantries",
+          "start_date": "2020-09-01",
+          "end_date": "2023-09-30",
           "joined": "2020-09",
           "avatar": "https://gallantries.github.io/assets/images/gallantries-logo.png",
           "github": false,
           "funder": true,
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/gallantries.json",
+          "url": "https://training.galaxyproject.org/training-material/api/funders/gallantries.json",
           "funder_name": "Erasmus+ Programme",
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_system": "erasmusplus",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />\n<img src=\"https://www.erasmusplus.nl/assets/images/logo.png\" alt=\"erasmus plus logo\" />",
+          "members": [
+            "abretaud",
+            "bebatut",
+            "fpsom",
+            "hexylena",
+            "shiltemann",
+            "yvanlebras"
+          ],
           "id": "gallantries",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallantries/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00267",
       "url": "/topics/statistics/tutorials/intro-to-ml-with-r/tutorial.html",
       "topic_name": "statistics",

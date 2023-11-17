@@ -37,6 +37,7 @@
     "ansible",
     "git-gat"
   ],
+  "mathjax": null,
   "short_id": "T00326",
   "url": "/topics/admin/tutorials/celery/tutorial.html",
   "topic_name": "admin",
@@ -103,6 +104,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

@@ -26,6 +26,11 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "contact_for_training": true,
+      "affiliations": [
+        "CINECA-Project",
+        "gallantries",
+        "erasmusmc"
+      ],
       "location": {
         "country": "NL",
         "lat": 51.912,
@@ -72,6 +77,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dannon/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00120",
   "url": "/topics/dev/tutorials/visualization-charts/tutorial.html",
   "topic_name": "dev",

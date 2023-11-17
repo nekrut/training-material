@@ -27,6 +27,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -47,6 +52,7 @@
     }
   ],
   "subtopic": "histories",
+  "mathjax": null,
   "short_id": "T00158",
   "url": "/topics/galaxy-interface/tutorials/search/tutorial.html",
   "topic_name": "galaxy-interface",

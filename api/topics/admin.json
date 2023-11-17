@@ -58,6 +58,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -162,7 +167,8 @@
           "lldelisle"
         ],
         "testing": [
-          "mira-miracoli"
+          "mira-miracoli",
+          "edmontosaurus"
         ]
       },
       "tags": [
@@ -192,6 +198,7 @@
         "topic_0605",
         "topic_3071"
       ],
+      "mathjax": null,
       "short_id": "T00001",
       "url": "/topics/admin/tutorials/ansible-galaxy/tutorial.html",
       "topic_name": "admin",
@@ -321,6 +328,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -365,6 +377,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -462,6 +479,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -492,6 +512,14 @@
           "id": "mira-miracoli",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/mira-miracoli.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mira-miracoli/"
+        },
+        {
+          "name": "Edwin den Haas",
+          "matrix": "edmontosaurus:matrix.org",
+          "joined": "2023-11",
+          "id": "edmontosaurus",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/edmontosaurus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/edmontosaurus/"
         }
       ],
       "urls": {
@@ -514,6 +542,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -536,6 +569,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -546,6 +584,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00009",
       "url": "/topics/admin/tutorials/empathy/slides.html",
       "topic_name": "admin",
@@ -651,6 +690,7 @@
         "topic_0605",
         "topic_3071"
       ],
+      "mathjax": null,
       "short_id": "T00324",
       "url": "/topics/admin/tutorials/backup-cleanup/tutorial.html",
       "topic_name": "admin",
@@ -706,6 +746,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -802,6 +847,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -828,6 +878,9 @@
           },
           "fediverse": "https://genomic.social/@abretaud",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "abretaud",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/"
@@ -850,6 +903,7 @@
         }
       ],
       "subtopic": "features",
+      "mathjax": null,
       "short_id": "T00010",
       "url": "/topics/admin/tutorials/interactive-tools/tutorial.html",
       "topic_name": "admin",
@@ -999,6 +1053,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1010,6 +1069,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00022",
       "url": "/topics/admin/tutorials/stuff/slides.html",
       "topic_name": "admin",
@@ -1091,6 +1151,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1108,6 +1173,7 @@
         "ansible",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00009",
       "url": "/topics/admin/tutorials/gxadmin/tutorial.html",
       "topic_name": "admin",
@@ -1238,6 +1304,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1265,6 +1336,7 @@
         "tools",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00023",
       "url": "/topics/admin/tutorials/tool-management/tutorial.html",
       "topic_name": "admin",
@@ -1434,6 +1506,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1465,6 +1542,7 @@
         "ansible",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00003",
       "url": "/topics/admin/tutorials/cvmfs/tutorial.html",
       "topic_name": "admin",
@@ -1616,6 +1694,7 @@
         }
       ],
       "subtopic": "maintenance",
+      "mathjax": null,
       "short_id": "S00026",
       "url": "/topics/admin/tutorials/troubleshooting/slides.html",
       "topic_name": "admin",
@@ -1694,6 +1773,7 @@
         }
       ],
       "subtopic": "deprecated",
+      "mathjax": null,
       "short_id": "S00028",
       "url": "/topics/admin/tutorials/uwsgi/slides.html",
       "topic_name": "admin",
@@ -1780,6 +1860,7 @@
         }
       ],
       "subtopic": "data",
+      "mathjax": null,
       "short_id": "T00329",
       "url": "/topics/admin/tutorials/reference-genomes/tutorial.html",
       "topic_name": "admin",
@@ -1814,26 +1895,26 @@
             "name": "bwa",
             "owner": "devteam",
             "revisions": "e188dc7a68e6",
-            "tool_panel_section_label": "Galaxy Server administration",
+            "tool_panel_section_label": "Mapping",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "data_manager_bwa_mem_index_builder",
             "owner": "devteam",
             "revisions": "9e993022c762",
-            "tool_panel_section_label": "Galaxy Server administration",
+            "tool_panel_section_label": "Data Managers",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "data_manager_fetch_genome_dbkeys_all_fasta",
             "owner": "devteam",
             "revisions": "4d3eff1bc421",
-            "tool_panel_section_label": "Galaxy Server administration",
+            "tool_panel_section_label": "Data Managers",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: bwa\n  owner: devteam\n  revisions: e188dc7a68e6\n  tool_panel_section_label: Galaxy Server administration\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: data_manager_bwa_mem_index_builder\n  owner: devteam\n  revisions: 9e993022c762\n  tool_panel_section_label: Galaxy Server administration\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: data_manager_fetch_genome_dbkeys_all_fasta\n  owner: devteam\n  revisions: 4d3eff1bc421\n  tool_panel_section_label: Galaxy Server administration\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: bwa\n  owner: devteam\n  revisions: e188dc7a68e6\n  tool_panel_section_label: Mapping\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: data_manager_bwa_mem_index_builder\n  owner: devteam\n  revisions: 9e993022c762\n  tool_panel_section_label: Data Managers\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: data_manager_fetch_genome_dbkeys_all_fasta\n  owner: devteam\n  revisions: 4d3eff1bc421\n  tool_panel_section_label: Data Managers\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -1875,6 +1956,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1932,6 +2018,7 @@
         ]
       },
       "subtopic": "maintenance",
+      "mathjax": null,
       "short_id": "S00027",
       "url": "/topics/admin/tutorials/users-groups-quotas/slides.html",
       "topic_name": "admin",
@@ -2041,6 +2128,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2114,6 +2206,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2125,6 +2222,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00008",
       "url": "/topics/admin/tutorials/database/slides.html",
       "topic_name": "admin",
@@ -2213,6 +2311,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2233,6 +2335,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00011",
       "url": "/topics/admin/tutorials/galaxy-docker/slides.html",
       "topic_name": "admin",
@@ -2334,6 +2437,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2346,6 +2454,7 @@
         }
       ],
       "subtopic": "monitoring",
+      "mathjax": null,
       "short_id": "S00012",
       "url": "/topics/admin/tutorials/general-monitoring/slides.html",
       "topic_name": "admin",
@@ -2425,6 +2534,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2456,6 +2570,7 @@
         }
       ],
       "subtopic": "deprecated",
+      "mathjax": null,
       "short_id": "S00000",
       "url": "/topics/admin/tutorials/advanced-galaxy-customisation/slides.html",
       "topic_name": "admin",
@@ -2534,6 +2649,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2556,6 +2676,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -2583,6 +2708,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00005",
       "url": "/topics/admin/tutorials/data-library/tutorial.html",
       "topic_name": "admin",
@@ -2732,6 +2858,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2743,6 +2874,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00015",
       "url": "/topics/admin/tutorials/introduction/slides.html",
       "topic_name": "admin",
@@ -2832,6 +2964,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2857,6 +2994,7 @@
       "abbreviations": {
         "TSDB": "Time Series Database"
       },
+      "mathjax": null,
       "short_id": "T00015",
       "url": "/topics/admin/tutorials/monitoring/tutorial.html",
       "topic_name": "admin",
@@ -3009,6 +3147,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3044,6 +3187,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00016",
       "url": "/topics/admin/tutorials/object-store/tutorial.html",
       "topic_name": "admin",
@@ -3132,6 +3276,7 @@
         "ansible",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00326",
       "url": "/topics/admin/tutorials/celery/tutorial.html",
       "topic_name": "admin",
@@ -3198,6 +3343,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3245,6 +3395,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3267,6 +3422,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -3281,6 +3441,7 @@
       "tags": [
         "ansible"
       ],
+      "mathjax": null,
       "short_id": "T00000",
       "url": "/topics/admin/tutorials/ansible/tutorial.html",
       "topic_name": "admin",
@@ -3447,6 +3608,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3472,6 +3638,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00007",
       "url": "/topics/admin/tutorials/external-auth/tutorial.html",
       "topic_name": "admin",
@@ -3584,6 +3751,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3638,6 +3810,7 @@
           "type": "none"
         }
       ],
+      "mathjax": null,
       "short_id": "T00017",
       "url": "/topics/admin/tutorials/pulsar/tutorial.html",
       "topic_name": "admin",
@@ -3783,6 +3956,7 @@
         }
       ],
       "subtopic": "cloud",
+      "mathjax": null,
       "short_id": "S00004",
       "url": "/topics/admin/tutorials/cloudbursting/slides.html",
       "topic_name": "admin",
@@ -3859,6 +4033,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -3871,6 +4050,7 @@
         }
       ],
       "subtopic": "deprecated",
+      "mathjax": null,
       "short_id": "S00023",
       "url": "/topics/admin/tutorials/systemd-supervisor/slides.html",
       "topic_name": "admin",
@@ -3982,6 +4162,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4018,6 +4203,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00002",
       "url": "/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html",
       "topic_name": "admin",
@@ -4121,6 +4307,7 @@
         }
       ],
       "subtopic": "maintenance",
+      "mathjax": null,
       "short_id": "S00019",
       "url": "/topics/admin/tutorials/production/slides.html",
       "topic_name": "admin",
@@ -4200,6 +4387,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4238,6 +4430,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00024",
       "url": "/topics/admin/tutorials/tus/tutorial.html",
       "topic_name": "admin",
@@ -4379,6 +4572,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4407,6 +4605,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00018",
       "url": "/topics/admin/tutorials/reports/tutorial.html",
       "topic_name": "admin",
@@ -4487,6 +4686,7 @@
 
       ],
       "subtopic": "maintenance",
+      "mathjax": null,
       "short_id": "T00328",
       "url": "/topics/admin/tutorials/customization-manual/tutorial.html",
       "topic_name": "admin",
@@ -4551,6 +4751,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4604,6 +4809,7 @@
         "ansible",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00330",
       "url": "/topics/admin/tutorials/sentry/tutorial.html",
       "topic_name": "admin",
@@ -4666,6 +4872,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4721,6 +4932,7 @@
         "wireguard",
         "networking"
       ],
+      "mathjax": null,
       "short_id": "T00026",
       "url": "/topics/admin/tutorials/wireguard/tutorial.html",
       "topic_name": "admin",
@@ -4776,6 +4988,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4837,6 +5054,7 @@
         "wireguard",
         "networking"
       ],
+      "mathjax": null,
       "short_id": "T00027",
       "url": "/topics/admin/tutorials/wireguard-headscale/tutorial.html",
       "topic_name": "admin",
@@ -4892,6 +5110,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -4971,6 +5194,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -5009,6 +5237,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00323",
       "url": "/topics/admin/tutorials/apptainer/tutorial.html",
       "topic_name": "admin",
@@ -5135,6 +5364,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -5147,6 +5381,7 @@
         }
       ],
       "subtopic": "data",
+      "mathjax": null,
       "short_id": "T00004",
       "url": "/topics/admin/tutorials/cvmfs-manual/tutorial.html",
       "topic_name": "admin",
@@ -5250,6 +5485,7 @@
         "data",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00008",
       "url": "/topics/admin/tutorials/ftp/tutorial.html",
       "topic_name": "admin",
@@ -5333,6 +5569,7 @@
         "git-gat"
       ],
       "subtopic": "maintenance",
+      "mathjax": null,
       "short_id": "T00327",
       "url": "/topics/admin/tutorials/customization/tutorial.html",
       "topic_name": "admin",
@@ -5397,6 +5634,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -5459,6 +5701,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00020",
       "url": "/topics/admin/tutorials/stop-worrying-love-systemd/tutorial.html",
       "topic_name": "admin",
@@ -5514,6 +5757,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -5599,6 +5847,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00025",
       "url": "/topics/admin/tutorials/upgrading/tutorial.html",
       "topic_name": "admin",
@@ -5735,6 +5984,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00006",
       "url": "/topics/admin/tutorials/database-schema/tutorial.html",
       "topic_name": "admin",
@@ -5811,6 +6061,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -5833,6 +6088,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -5866,6 +6126,7 @@
       "abbreviations": {
         "TIaaS": "Training Infrastructure as a Service"
       },
+      "mathjax": null,
       "short_id": "T00022",
       "url": "/topics/admin/tutorials/tiaas/tutorial.html",
       "topic_name": "admin",
@@ -5981,6 +6242,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -6005,6 +6271,7 @@
       "abbreviations": {
         "CI": "Continuous Integration"
       },
+      "mathjax": null,
       "short_id": "T00011",
       "url": "/topics/admin/tutorials/jenkins/tutorial.html",
       "topic_name": "admin",
@@ -6090,7 +6357,8 @@
 
         ],
         "testing": [
-          "cat-bro"
+          "cat-bro",
+          "edmontosaurus"
         ]
       },
       "tags": [
@@ -6110,6 +6378,7 @@
       "abbreviations": {
         "TPV": "Total Perspective Vortex"
       },
+      "mathjax": null,
       "short_id": "T00012",
       "url": "/topics/admin/tutorials/job-destinations/tutorial.html",
       "topic_name": "admin",
@@ -6238,6 +6507,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -6263,6 +6537,14 @@
           "id": "cat-bro",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/cat-bro.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/cat-bro/"
+        },
+        {
+          "name": "Edwin den Haas",
+          "matrix": "edmontosaurus:matrix.org",
+          "joined": "2023-11",
+          "id": "edmontosaurus",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/edmontosaurus.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/edmontosaurus/"
         }
       ],
       "urls": {
@@ -6343,6 +6625,7 @@
         }
       ],
       "priority": 1,
+      "mathjax": null,
       "short_id": "T00014",
       "url": "/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html",
       "topic_name": "admin",
@@ -6436,6 +6719,7 @@
         "beacon",
         "git-gat"
       ],
+      "mathjax": null,
       "short_id": "T00325",
       "url": "/topics/admin/tutorials/beacon/tutorial.html",
       "topic_name": "admin",
@@ -6491,6 +6775,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -6513,6 +6802,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -6524,11 +6818,16 @@
         },
         {
           "name": "Common Infrastructure for National Cohorts in Europe, Canada, and Africa",
+          "short_name": "CINECA",
           "joined": "2023-03",
           "funder": true,
           "funding_id": "825775",
           "funding_system": "cordis",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/CINECA-Project.json",
+          "funder_name": "Horizon 2020",
+          "url": "https://training.galaxyproject.org/training-material/api/funders/CINECA-Project.json",
+          "members": [
+            "shiltemann"
+          ],
           "id": "CINECA-Project",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/CINECA-Project/"
         }
@@ -6608,6 +6907,7 @@
         }
       ],
       "priority": 2,
+      "mathjax": null,
       "short_id": "T00013",
       "url": "/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html",
       "topic_name": "admin",
@@ -6687,6 +6987,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -6705,6 +7010,7 @@
         "cloud"
       ],
       "priority": 3,
+      "mathjax": null,
       "short_id": "T00021",
       "url": "/topics/admin/tutorials/terraform/tutorial.html",
       "topic_name": "admin",

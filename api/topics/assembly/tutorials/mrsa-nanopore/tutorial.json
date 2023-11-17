@@ -61,6 +61,7 @@
   "abbreviations": {
     "SVs": "Structural Variations"
   },
+  "mathjax": 6925,
   "short_id": "T00037",
   "url": "/topics/assembly/tutorials/mrsa-nanopore/tutorial.html",
   "topic_name": "assembly",
@@ -105,7 +106,9 @@
           "name": "Miaomiao Zhou"
         }
       ],
-      "test_results": null
+      "name": "Genome Assembly of MRSA using Oxford Nanopore MinION Data (imported from uploaded file)",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:09 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/assembly/tutorials/mrsa-nanopore/tutorial.json",
@@ -155,49 +158,49 @@
         "name": "prokka",
         "owner": "crs4",
         "revisions": "111884f0d912",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "bandage",
         "owner": "iuc",
         "revisions": "b2860df42e16",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Graph/Display Data",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "filtlong",
         "owner": "iuc",
         "revisions": "8880fb74ef56",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "FASTA/FASTQ",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "jbrowse",
         "owner": "iuc",
         "revisions": "17359b808b01",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Graph/Display Data",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "minimap2",
         "owner": "iuc",
         "revisions": "8c6cd2650d1f",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Mapping",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "nanoplot",
         "owner": "iuc",
         "revisions": "edbb6c5028f5",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Nanopore",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "porechop",
         "owner": "iuc",
         "revisions": "93d623d9979c",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Nanopore",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
@@ -211,26 +214,26 @@
         "name": "tbl2gff3",
         "owner": "iuc",
         "revisions": "965674d88d34",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "tbl2gff3",
         "owner": "iuc",
         "revisions": "4a7f4b0cc0a3",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Annotation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       },
       {
         "name": "staramr",
         "owner": "nml",
         "revisions": "2fd4d4c9c5c2",
-        "tool_panel_section_label": "Assembly",
+        "tool_panel_section_label": "Metagenomic Analysis",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: flye\n  owner: bgruening\n  revisions: 3ee0ef312022\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: prokka\n  owner: crs4\n  revisions: 111884f0d912\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bandage\n  owner: iuc\n  revisions: b2860df42e16\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: filtlong\n  owner: iuc\n  revisions: 8880fb74ef56\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 17359b808b01\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: minimap2\n  owner: iuc\n  revisions: 8c6cd2650d1f\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: nanoplot\n  owner: iuc\n  revisions: edbb6c5028f5\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: porechop\n  owner: iuc\n  revisions: 93d623d9979c\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: quast\n  owner: iuc\n  revisions: ebb0dcdb621a\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 965674d88d34\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 4a7f4b0cc0a3\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: staramr\n  owner: nml\n  revisions: 2fd4d4c9c5c2\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: flye\n  owner: bgruening\n  revisions: 3ee0ef312022\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: prokka\n  owner: crs4\n  revisions: 111884f0d912\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bandage\n  owner: iuc\n  revisions: b2860df42e16\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: filtlong\n  owner: iuc\n  revisions: 8880fb74ef56\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: jbrowse\n  owner: iuc\n  revisions: 17359b808b01\n  tool_panel_section_label: Graph/Display Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: minimap2\n  owner: iuc\n  revisions: 8c6cd2650d1f\n  tool_panel_section_label: Mapping\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: nanoplot\n  owner: iuc\n  revisions: edbb6c5028f5\n  tool_panel_section_label: Nanopore\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: porechop\n  owner: iuc\n  revisions: 93d623d9979c\n  tool_panel_section_label: Nanopore\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: quast\n  owner: iuc\n  revisions: ebb0dcdb621a\n  tool_panel_section_label: Assembly\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 965674d88d34\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: tbl2gff3\n  owner: iuc\n  revisions: 4a7f4b0cc0a3\n  tool_panel_section_label: Annotation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: staramr\n  owner: nml\n  revisions: 2fd4d4c9c5c2\n  tool_panel_section_label: Metagenomic Analysis\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {
@@ -261,6 +264,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -290,6 +298,11 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "contact_for_training": true,
+      "affiliations": [
+        "CINECA-Project",
+        "gallantries",
+        "erasmusmc"
+      ],
       "location": {
         "country": "NL",
         "lat": 51.912,
@@ -311,9 +324,11 @@
     {
       "name": "Avans Hogeschool",
       "joined": "2020-11",
-      "funder": true,
-      "funding_statement": "A number of our employees contribute directly to the Galaxy Training Network and seek to make our higher education learning materials more accessible to a wider audience through the GTN platform. <a href=\"https://avans.nl/\">avans.nl</a>",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/avans-atgm.json",
+      "url": "https://training.galaxyproject.org/training-material/api/organisations/avans-atgm.json",
+      "avatar": "/training-material/shared/images/logo-avans.png",
+      "members": [
+        "hexylena"
+      ],
       "id": "avans-atgm",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/avans-atgm/"
     }

@@ -31,7 +31,8 @@
     ],
     "editing": [
       "kkamieniecka",
-      "tb143"
+      "tb143",
+      "poterlowicz-lab"
     ]
   },
   "subtopic": "fair-data",
@@ -44,7 +45,8 @@
       ]
     }
   ],
-  "short_id": null,
+  "mathjax": null,
+  "short_id": "T00368",
   "url": "/topics/fair/tutorials/fair-clinical/tutorial.html",
   "topic_name": "fair",
   "tutorial_name": "fair-clinical",
@@ -113,6 +115,16 @@
       "id": "tb143",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/tb143.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tb143/"
+    },
+    {
+      "name": "Krzysztof Poterlowicz",
+      "twitter": "bioinfbrad",
+      "orcid": "0000-0001-6173-5674",
+      "joined": "2017-09",
+      "elixir_node": "uk",
+      "id": "poterlowicz-lab",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/poterlowicz-lab.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/poterlowicz-lab/"
     }
   ]
 }

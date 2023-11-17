@@ -21,6 +21,7 @@
       "hexylena"
     ]
   },
+  "mathjax": null,
   "short_id": "T00056",
   "url": "/topics/contributing/tutorials/create-new-topic/tutorial.html",
   "topic_name": "contributing",
@@ -83,6 +84,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -97,6 +102,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

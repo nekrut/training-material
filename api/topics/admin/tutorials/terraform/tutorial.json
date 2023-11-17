@@ -28,6 +28,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -46,6 +51,7 @@
     "cloud"
   ],
   "priority": 3,
+  "mathjax": null,
   "short_id": "T00021",
   "url": "/topics/admin/tutorials/terraform/tutorial.html",
   "topic_name": "admin",

@@ -76,6 +76,7 @@
     "language": "python",
     "snippet": "topics/climate/tutorials/pangeo-notebook/preamble.md"
   },
+  "mathjax": null,
   "short_id": "S00039",
   "url": "/topics/climate/tutorials/pangeo-notebook/slides.html",
   "topic_name": "climate",
@@ -139,7 +140,9 @@
           "url": "https://github.com/annefou"
         }
       ],
-      "test_results": null
+      "name": "Pangeo Jupyter Notebook",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:09 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json",

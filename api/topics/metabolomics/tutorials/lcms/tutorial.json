@@ -55,6 +55,7 @@
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/workflow4metabolomics/"
     }
   ],
+  "mathjax": null,
   "short_id": "T00195",
   "url": "/topics/metabolomics/tutorials/lcms/tutorial.html",
   "topic_name": "metabolomics",
@@ -83,7 +84,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Workflow Constructed From History 'imported: testpourGCC'",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:11 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/metabolomics/tutorials/lcms/tutorial.json",

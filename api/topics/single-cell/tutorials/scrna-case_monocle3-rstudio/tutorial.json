@@ -56,6 +56,7 @@
     "language": "r",
     "snippet": "topics/single-cell/tutorials/scrna-case_monocle3-rstudio/preamble.md"
   },
+  "mathjax": null,
   "short_id": "T00336",
   "url": "/topics/single-cell/tutorials/scrna-case_monocle3-rstudio/tutorial.html",
   "topic_name": "single-cell",
@@ -138,6 +139,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -178,7 +184,7 @@
       "funding_id": "824087",
       "funding_system": "cordis",
       "funding_statement": "EOSC-Life has received funding from the European Union’s Horizon 2020 programme under grant agreement number 824087",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/eosc-life.json",
+      "url": "https://training.galaxyproject.org/training-material/api/funders/eosc-life.json",
       "id": "eosc-life",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/eosc-life/"
     }

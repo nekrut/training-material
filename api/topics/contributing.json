@@ -40,6 +40,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -98,6 +102,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -112,6 +120,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -134,6 +147,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -160,6 +178,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00057",
       "url": "/topics/contributing/tutorials/create-new-tutorial/tutorial.html",
       "topic_name": "contributing",
@@ -223,7 +242,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "MakeAFakeInput",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:09 +0000"
         },
         {
           "workflow": "main_workflow.ga",
@@ -237,7 +258,9 @@
           "creators": [
 
           ],
-          "test_results": null
+          "name": "Retrieve climate data from Copernicus",
+          "test_results": null,
+          "modified": "2023-11-17 16:01:09 +0000"
         }
       ],
       "api": "https://training.galaxyproject.org/training-material/api/topics/contributing/tutorials/create-new-tutorial/tutorial.json",
@@ -269,75 +292,75 @@
             "name": "text_processing",
             "owner": "bgruening",
             "revisions": "ddf54b12c295",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Text Manipulation",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "text_processing",
             "owner": "bgruening",
             "revisions": "d698c222f354",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Text Manipulation",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "text_processing",
             "owner": "bgruening",
             "revisions": "d698c222f354",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Text Manipulation",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "text_processing",
             "owner": "bgruening",
             "revisions": "d698c222f354",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Text Manipulation",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "c3s",
             "owner": "climate",
             "revisions": "250554670f72",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Climate Analysis",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "bam_to_sam",
             "owner": "devteam",
             "revisions": "88eedb4abea0",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "SAM/BAM",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "bowtie2",
             "owner": "devteam",
             "revisions": "017aba02828d",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Mapping",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "fastq_to_tabular",
             "owner": "devteam",
             "revisions": "614a63f14adf",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "FASTA/FASTQ",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "seqtk",
             "owner": "iuc",
             "revisions": "3da72230c066",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "FASTA/FASTQ",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           },
           {
             "name": "cutadapt",
             "owner": "lparsons",
             "revisions": "49370cb85f0f",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "FASTA/FASTQ",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: ddf54b12c295\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: c3s\n  owner: climate\n  revisions: 250554670f72\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bam_to_sam\n  owner: devteam\n  revisions: 88eedb4abea0\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bowtie2\n  owner: devteam\n  revisions: 017aba02828d\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: fastq_to_tabular\n  owner: devteam\n  revisions: 614a63f14adf\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: seqtk\n  owner: iuc\n  revisions: 3da72230c066\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: cutadapt\n  owner: lparsons\n  revisions: 49370cb85f0f\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: ddf54b12c295\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: c3s\n  owner: climate\n  revisions: 250554670f72\n  tool_panel_section_label: Climate Analysis\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bam_to_sam\n  owner: devteam\n  revisions: 88eedb4abea0\n  tool_panel_section_label: SAM/BAM\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: bowtie2\n  owner: devteam\n  revisions: 017aba02828d\n  tool_panel_section_label: Mapping\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: fastq_to_tabular\n  owner: devteam\n  revisions: 614a63f14adf\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: seqtk\n  owner: iuc\n  revisions: 3da72230c066\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n- name: cutadapt\n  owner: lparsons\n  revisions: 49370cb85f0f\n  tool_panel_section_label: FASTA/FASTQ\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -387,6 +410,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -414,6 +442,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -430,6 +462,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -440,6 +477,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00040",
       "url": "/topics/contributing/tutorials/create-new-tutorial-slides/slides.html",
       "topic_name": "contributing",
@@ -568,11 +606,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00064",
       "url": "/topics/contributing/tutorials/github-command-line-contribution/tutorial.html",
       "topic_name": "contributing",
@@ -650,11 +693,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "S00042",
       "url": "/topics/contributing/tutorials/introduction/slides.html",
       "topic_name": "contributing",
@@ -727,6 +775,7 @@
           "hexylena"
         ]
       },
+      "mathjax": null,
       "short_id": "T00056",
       "url": "/topics/contributing/tutorials/create-new-topic/tutorial.html",
       "topic_name": "contributing",
@@ -789,6 +838,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -803,6 +856,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -840,6 +898,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -851,6 +914,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00070",
       "url": "/topics/contributing/tutorials/schemas/tutorial.html",
       "topic_name": "contributing",
@@ -928,6 +992,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -938,6 +1007,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00066",
       "url": "/topics/contributing/tutorials/gitpod/tutorial.html",
       "topic_name": "contributing",
@@ -1053,11 +1123,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00065",
       "url": "/topics/contributing/tutorials/github-interface-contribution/tutorial.html",
       "topic_name": "contributing",
@@ -1131,6 +1206,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1142,6 +1222,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00059",
       "url": "/topics/contributing/tutorials/create-new-tutorial-quiz/tutorial.html",
       "topic_name": "contributing",
@@ -1228,6 +1309,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1239,6 +1325,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00055",
       "url": "/topics/contributing/tutorials/admin-knitting/tutorial.html",
       "topic_name": "contributing",
@@ -1322,6 +1409,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -1353,6 +1444,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -1363,6 +1459,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00061",
       "url": "/topics/contributing/tutorials/create-new-tutorial-tours/tutorial.html",
       "topic_name": "contributing",
@@ -1443,6 +1540,7 @@
           "dirowa"
         ]
       },
+      "mathjax": null,
       "short_id": "T00068",
       "url": "/topics/contributing/tutorials/python/tutorial.html",
       "topic_name": "contributing",
@@ -1498,6 +1596,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1572,6 +1675,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -1603,6 +1710,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -1622,6 +1734,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1633,6 +1750,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00060",
       "url": "/topics/contributing/tutorials/create-new-tutorial-technical/tutorial.html",
       "topic_name": "contributing",
@@ -1733,6 +1851,7 @@
           "gallantries"
         ]
       },
+      "mathjax": null,
       "short_id": "T00062",
       "url": "/topics/contributing/tutorials/design/tutorial.html",
       "topic_name": "contributing",
@@ -1829,6 +1948,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -1842,6 +1965,9 @@
           "linkedin": "fpsom",
           "joined": "2019-03",
           "elixir_node": "gr",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "fpsom",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
@@ -1863,21 +1989,34 @@
         {
           "name": "ELIXIR Goblet Train the Trainers",
           "joined": "2022-09",
+          "github": false,
+          "avatar": "/training-material/shared/images/elixir.png",
           "id": "elixir-goblet-ttt",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json",
+          "url": "https://training.galaxyproject.org/training-material/api/organisations/elixir-goblet-ttt.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/elixir-goblet-ttt/"
         },
         {
-          "name": "Gallantries Project",
+          "name": "Gallantries: Bridging Training Communities in Life Science, Environment and Health",
+          "short_name": "Gallantries",
+          "start_date": "2020-09-01",
+          "end_date": "2023-09-30",
           "joined": "2020-09",
           "avatar": "https://gallantries.github.io/assets/images/gallantries-logo.png",
           "github": false,
           "funder": true,
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/gallantries.json",
+          "url": "https://training.galaxyproject.org/training-material/api/funders/gallantries.json",
           "funder_name": "Erasmus+ Programme",
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_system": "erasmusplus",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />\n<img src=\"https://www.erasmusplus.nl/assets/images/logo.png\" alt=\"erasmus plus logo\" />",
+          "members": [
+            "abretaud",
+            "bebatut",
+            "fpsom",
+            "hexylena",
+            "shiltemann",
+            "yvanlebras"
+          ],
           "id": "gallantries",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallantries/"
         }
@@ -1915,6 +2054,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -1926,6 +2070,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00071",
       "url": "/topics/contributing/tutorials/slides-with-video/tutorial.html",
       "topic_name": "contributing",
@@ -2009,6 +2154,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2040,6 +2189,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -2050,6 +2204,7 @@
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00069",
       "url": "/topics/contributing/tutorials/running-jekyll/tutorial.html",
       "topic_name": "contributing",
@@ -2125,12 +2280,16 @@
         "editing": [
           "bgruening",
           "shiltemann"
+        ],
+        "funding": [
+          "gallantries"
         ]
       },
       "abbreviations": {
         "API": "Application Programming Interface",
         "JSON": "JavaScript Object Notation"
       },
+      "mathjax": 13799,
       "short_id": "T00058",
       "url": "/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html",
       "topic_name": "contributing",
@@ -2164,12 +2323,12 @@
             "name": "multiqc",
             "owner": "iuc",
             "revisions": "bf675f34b056",
-            "tool_panel_section_label": "Contributing to the Galaxy Training Material",
+            "tool_panel_section_label": "Quality Control",
             "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
           }
         ]
       },
-      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: multiqc\n  owner: iuc\n  revisions: bf675f34b056\n  tool_panel_section_label: Contributing to the Galaxy Training Material\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+      "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: multiqc\n  owner: iuc\n  revisions: bf675f34b056\n  tool_panel_section_label: Quality Control\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
       "tours": false,
       "video": false,
       "translations": {
@@ -2200,6 +2359,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2214,6 +2377,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2251,6 +2419,11 @@
           "bio": "Researcher at Erasmus Medical Center",
           "elixir_node": "nl",
           "contact_for_training": true,
+          "affiliations": [
+            "CINECA-Project",
+            "gallantries",
+            "erasmusmc"
+          ],
           "location": {
             "country": "NL",
             "lat": 51.912,
@@ -2259,6 +2432,31 @@
           "id": "shiltemann",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
+        },
+        {
+          "name": "Gallantries: Bridging Training Communities in Life Science, Environment and Health",
+          "short_name": "Gallantries",
+          "start_date": "2020-09-01",
+          "end_date": "2023-09-30",
+          "joined": "2020-09",
+          "avatar": "https://gallantries.github.io/assets/images/gallantries-logo.png",
+          "github": false,
+          "funder": true,
+          "url": "https://training.galaxyproject.org/training-material/api/funders/gallantries.json",
+          "funder_name": "Erasmus+ Programme",
+          "funding_id": "2020-1-NL01-KA203-064717",
+          "funding_system": "erasmusplus",
+          "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />\n<img src=\"https://www.erasmusplus.nl/assets/images/logo.png\" alt=\"erasmus plus logo\" />",
+          "members": [
+            "abretaud",
+            "bebatut",
+            "fpsom",
+            "hexylena",
+            "shiltemann",
+            "yvanlebras"
+          ],
+          "id": "gallantries",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallantries/"
         }
       ],
       "urls": {
@@ -2300,6 +2498,7 @@
           "gallantries"
         ]
       },
+      "mathjax": null,
       "short_id": "T00067",
       "url": "/topics/contributing/tutorials/learning-principles/tutorial.html",
       "topic_name": "contributing",
@@ -2404,6 +2603,10 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -2417,6 +2620,9 @@
           "linkedin": "fpsom",
           "joined": "2019-03",
           "elixir_node": "gr",
+          "affiliations": [
+            "gallantries"
+          ],
           "id": "fpsom",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/fpsom.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/fpsom/"
@@ -2447,21 +2653,34 @@
         {
           "name": "ELIXIR Goblet Train the Trainers",
           "joined": "2022-09",
+          "github": false,
+          "avatar": "/training-material/shared/images/elixir.png",
           "id": "elixir-goblet-ttt",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/elixir-goblet-ttt.json",
+          "url": "https://training.galaxyproject.org/training-material/api/organisations/elixir-goblet-ttt.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/elixir-goblet-ttt/"
         },
         {
-          "name": "Gallantries Project",
+          "name": "Gallantries: Bridging Training Communities in Life Science, Environment and Health",
+          "short_name": "Gallantries",
+          "start_date": "2020-09-01",
+          "end_date": "2023-09-30",
           "joined": "2020-09",
           "avatar": "https://gallantries.github.io/assets/images/gallantries-logo.png",
           "github": false,
           "funder": true,
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/gallantries.json",
+          "url": "https://training.galaxyproject.org/training-material/api/funders/gallantries.json",
           "funder_name": "Erasmus+ Programme",
           "funding_id": "2020-1-NL01-KA203-064717",
           "funding_system": "erasmusplus",
           "funding_statement": "This project (<a href=\"https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-NL01-KA203-064717\"><code class=\"language-plaintext highlighter-rouge\">2020-1-NL01-KA203-064717</code></a>) is funded with the support of the Erasmus+ programme of the European Union. Their funding has supported a large number of tutorials within the GTN across a wide array of topics.\n<img src=\"https://gallantries.github.io/assets/images/logosbeneficaireserasmusright_en.jpg\" alt=\"eu flag with the text: with the support of the erasmus programme of the european union\" />\n<img src=\"https://www.erasmusplus.nl/assets/images/logo.png\" alt=\"erasmus plus logo\" />",
+          "members": [
+            "abretaud",
+            "bebatut",
+            "fpsom",
+            "hexylena",
+            "shiltemann",
+            "yvanlebras"
+          ],
           "id": "gallantries",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallantries/"
         }
@@ -2502,11 +2721,16 @@
           },
           "fediverse": "https://piaille.fr/@bebatut",
           "fediverse_flavor": "mastodon",
+          "affiliations": [
+            "gallantries",
+            "uni-freiburg"
+          ],
           "id": "bebatut",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
           "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
+      "mathjax": null,
       "short_id": "T00063",
       "url": "/topics/contributing/tutorials/generating-pdf/tutorial.html",
       "topic_name": "contributing",
@@ -2605,6 +2829,7 @@
           ]
         }
       ],
+      "mathjax": null,
       "short_id": "T00363",
       "url": "/topics/contributing/tutorials/fair-gtn/tutorial.html",
       "topic_name": "contributing",
@@ -2680,6 +2905,11 @@
           "elixir_node": "nl",
           "fediverse": "https://galaxians.garden/hexylena",
           "fediverse_flavor": "akkoma",
+          "affiliations": [
+            "gallantries",
+            "erasmusmc",
+            "avans-atgm"
+          ],
           "contact_for_training": false,
           "location": {
             "country": "NL",
@@ -2694,7 +2924,7 @@
           "name": "DASH UK",
           "joined": "2023-10",
           "avatar": "https://github.com/galaxyproject/training-material/blob/main/shared/images/dash.png?raw=true",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/ELIXIR-UK-DaSH.json",
+          "url": "https://training.galaxyproject.org/training-material/api/funders/ELIXIR-UK-DaSH.json",
           "funder": true,
           "funding_system": "ukri",
           "funding_id": "MR/V038966/1",

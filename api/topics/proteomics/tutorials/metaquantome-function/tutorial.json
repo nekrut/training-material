@@ -103,6 +103,7 @@
   "tags": [
     "microbiome"
   ],
+  "mathjax": null,
   "short_id": "T00223",
   "url": "/topics/proteomics/tutorials/metaquantome-function/tutorial.html",
   "topic_name": "proteomics",
@@ -131,7 +132,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "metaquantome-function-worklow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:12 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/proteomics/tutorials/metaquantome-function/tutorial.json",

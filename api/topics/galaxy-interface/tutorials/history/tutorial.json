@@ -38,6 +38,7 @@
     ]
   },
   "subtopic": "histories",
+  "mathjax": null,
   "short_id": "T00150",
   "url": "/topics/galaxy-interface/tutorials/history/tutorial.html",
   "topic_name": "galaxy-interface",
@@ -185,6 +186,11 @@
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
       "contact_for_training": true,
+      "affiliations": [
+        "CINECA-Project",
+        "gallantries",
+        "erasmusmc"
+      ],
       "location": {
         "country": "NL",
         "lat": 51.912,
@@ -211,6 +217,10 @@
       },
       "fediverse": "https://piaille.fr/@bebatut",
       "fediverse_flavor": "mastodon",
+      "affiliations": [
+        "gallantries",
+        "uni-freiburg"
+      ],
       "id": "bebatut",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
       "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
@@ -240,6 +250,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

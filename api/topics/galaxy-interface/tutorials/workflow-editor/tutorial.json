@@ -32,6 +32,7 @@
   ],
   "level": "Intermediate",
   "subtopic": "workflows",
+  "mathjax": null,
   "short_id": "T00163",
   "url": "/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html",
   "topic_name": "galaxy-interface",
@@ -60,7 +61,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Tutorial workflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:11 +0000"
     },
     {
       "workflow": "subworkflow.ga",
@@ -74,7 +77,9 @@
       "creators": [
 
       ],
-      "test_results": null
+      "name": "Subworkflow",
+      "test_results": null,
+      "modified": "2023-11-17 16:01:11 +0000"
     }
   ],
   "api": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-editor/tutorial.json",
@@ -135,12 +140,12 @@
         "name": "text_processing",
         "owner": "bgruening",
         "revisions": "d698c222f354",
-        "tool_panel_section_label": "Using Galaxy and Managing your Data",
+        "tool_panel_section_label": "Text Manipulation",
         "tool_shed_url": "https://toolshed.g2.bx.psu.edu/"
       }
     ]
   },
-  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Using Galaxy and Managing your Data\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
+  "admin_install_yaml": "---\ninstall_tool_dependencies: true\ninstall_repository_dependencies: true\ninstall_resolver_dependencies: true\ntools:\n- name: text_processing\n  owner: bgruening\n  revisions: d698c222f354\n  tool_panel_section_label: Text Manipulation\n  tool_shed_url: https://toolshed.g2.bx.psu.edu/\n",
   "tours": false,
   "video": false,
   "translations": {

@@ -58,6 +58,7 @@
     "language": "python",
     "snippet": "topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/preamble.md"
   },
+  "mathjax": null,
   "short_id": "T00244",
   "url": "/topics/single-cell/tutorials/scrna-case_JUPYTER-trajectories/tutorial.html",
   "topic_name": "single-cell",
@@ -192,6 +193,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

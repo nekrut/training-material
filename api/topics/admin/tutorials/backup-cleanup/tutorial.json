@@ -54,6 +54,7 @@
     "topic_0605",
     "topic_3071"
   ],
+  "mathjax": null,
   "short_id": "T00324",
   "url": "/topics/admin/tutorials/backup-cleanup/tutorial.html",
   "topic_name": "admin",
@@ -109,6 +110,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",

@@ -33,6 +33,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -65,6 +70,7 @@
     "language": "python",
     "pyolite": true
   },
+  "mathjax": 1547,
   "short_id": "T00094",
   "url": "/topics/data-science/tutorials/python-math/tutorial.html",
   "topic_name": "data-science",

@@ -29,6 +29,11 @@
       "elixir_node": "nl",
       "fediverse": "https://galaxians.garden/hexylena",
       "fediverse_flavor": "akkoma",
+      "affiliations": [
+        "gallantries",
+        "erasmusmc",
+        "avans-atgm"
+      ],
       "contact_for_training": false,
       "location": {
         "country": "NL",
@@ -67,6 +72,7 @@
       ]
     }
   ],
+  "mathjax": null,
   "short_id": "T00024",
   "url": "/topics/admin/tutorials/tus/tutorial.html",
   "topic_name": "admin",
