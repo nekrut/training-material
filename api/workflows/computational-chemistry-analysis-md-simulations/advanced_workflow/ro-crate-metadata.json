@@ -19,7 +19,7 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "datePublished": "2023-11-20T01:01:08.811+00:00",
+      "datePublished": "2023-11-21T01:01:26.392+00:00",
       "mainEntity": {
         "@id": "advanced_workflow.ga"
       }
@@ -33,7 +33,7 @@
       ],
       "author": [
         {
-          "@id": "#778f8747-e1e7-43fb-a376-0309737fa6c2"
+          "@id": "#638870e5-c8bb-43ce-8774-6e599e4d9034"
         }
       ],
       "license": {
@@ -63,7 +63,7 @@
       "version": "23.1"
     },
     {
-      "@id": "#778f8747-e1e7-43fb-a376-0309737fa6c2",
+      "@id": "#638870e5-c8bb-43ce-8774-6e599e4d9034",
       "@type": "Person",
       "name": "Chris Barnett"
     }

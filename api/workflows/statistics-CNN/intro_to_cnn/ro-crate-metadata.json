@@ -19,7 +19,7 @@
     {
       "@id": "./",
       "@type": "Dataset",
-      "datePublished": "2023-11-20T01:01:11.919+00:00",
+      "datePublished": "2023-11-21T01:01:29.488+00:00",
       "mainEntity": {
         "@id": "intro_to_cnn.ga"
       }
